@@ -4,5 +4,6 @@ lib.fixedPoints.makeExtensible (self: {
     palette = import ./palette.nix;
     base16 = import ./base16.nix { inherit (self.evergarden) palette; };
     toCatppuccinPalette = import ./toctp.nix;
+    whiskers = import ./whiskers.nix { inherit self; };
   };
 })
