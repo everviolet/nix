@@ -1,0 +1,26 @@
+{
+  "alacritty": {
+    "rev": "1f491009c634277a971d1c682a24cb7ceaef7eb0",
+    "hash": "sha256-7VRyhgFfrBKYVSWgw1GHgUkkKmbJQ5xE1r4X617HRPw="
+  },
+  "base16": {
+    "rev": "1f491009c634277a971d1c682a24cb7ceaef7eb0",
+    "hash": "sha256-7VRyhgFfrBKYVSWgw1GHgUkkKmbJQ5xE1r4X617HRPw="
+  },
+  "iterm": {
+    "rev": "1f491009c634277a971d1c682a24cb7ceaef7eb0",
+    "hash": "sha256-7VRyhgFfrBKYVSWgw1GHgUkkKmbJQ5xE1r4X617HRPw="
+  },
+  "kitty": {
+    "rev": "1f491009c634277a971d1c682a24cb7ceaef7eb0",
+    "hash": "sha256-7VRyhgFfrBKYVSWgw1GHgUkkKmbJQ5xE1r4X617HRPw="
+  },
+  "scss": {
+    "rev": "1f491009c634277a971d1c682a24cb7ceaef7eb0",
+    "hash": "sha256-7VRyhgFfrBKYVSWgw1GHgUkkKmbJQ5xE1r4X617HRPw="
+  },
+  "tmux": {
+    "rev": "1f491009c634277a971d1c682a24cb7ceaef7eb0",
+    "hash": "sha256-7VRyhgFfrBKYVSWgw1GHgUkkKmbJQ5xE1r4X617HRPw="
+  }
+}
