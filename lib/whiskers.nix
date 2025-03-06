@@ -9,7 +9,7 @@ let
   mkWhiskersArgs = name: value: ''
     --flavor mocha \
     --color-overrides '${whiskers-palette}' \
-    --overrides '{ "accent": { "hex": "${value}", "name": "${name}" } }'
+    --overrides '{ "accent": { "hex": "${value}", "name": "${name}" } }' \
   '';
 in
 
