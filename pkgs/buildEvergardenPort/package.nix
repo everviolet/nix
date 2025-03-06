@@ -11,10 +11,10 @@ lib.extendMkDerivation {
 
     src =
       args.src or (fetchFromGitHub {
-        owner = "comfysage";
-        repo = "evergarden";
+        owner = "everviolet";
+        repo = "ports";
         inherit (args) rev hash;
-        sparseCheckout = [ "extras/${args.port}" ];
+        sparseCheckout = [ "ports/${args.port}" ];
       });
 
     installPhase =
@@ -22,13 +22,13 @@ lib.extendMkDerivation {
         runHook preInstall
 
         mkdir -p $out
-        cp -r extras/${args.port}/* $out
+        cp -r ports/${args.port}/* $out
 
         runHook postInstall
       '';
 
     meta = (args.meta or { }) // {
-      homepage = "https://github.com/comfysage/evergarden/tree/mega/extras/${finalAttrs.pname}";
+      homepage = "https://github.com/everviolet/ports/tree/mega/ports/${finalAttrs.pname}";
       maintainers = with lib.maintainers; [
         isabelroses
         comfysage

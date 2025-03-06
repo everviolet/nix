@@ -1,26 +1,26 @@
 {
   "alacritty": {
-    "rev": "1f491009c634277a971d1c682a24cb7ceaef7eb0",
-    "hash": "sha256-7VRyhgFfrBKYVSWgw1GHgUkkKmbJQ5xE1r4X617HRPw="
+     "rev": "793ce033486f88644397d8326186aa1487689c35",
+    "hash": "sha256-URROFBDHAKJyb9xfcfyP/U9LZxzzwSMmAEqW/4mByZU="
   },
   "base16": {
-    "rev": "1f491009c634277a971d1c682a24cb7ceaef7eb0",
-    "hash": "sha256-7VRyhgFfrBKYVSWgw1GHgUkkKmbJQ5xE1r4X617HRPw="
+     "rev": "793ce033486f88644397d8326186aa1487689c35",
+    "hash": "sha256-URROFBDHAKJyb9xfcfyP/U9LZxzzwSMmAEqW/4mByZU="
   },
   "iterm": {
-    "rev": "1f491009c634277a971d1c682a24cb7ceaef7eb0",
-    "hash": "sha256-7VRyhgFfrBKYVSWgw1GHgUkkKmbJQ5xE1r4X617HRPw="
+     "rev": "793ce033486f88644397d8326186aa1487689c35",
+    "hash": "sha256-URROFBDHAKJyb9xfcfyP/U9LZxzzwSMmAEqW/4mByZU="
   },
   "kitty": {
-    "rev": "1f491009c634277a971d1c682a24cb7ceaef7eb0",
-    "hash": "sha256-7VRyhgFfrBKYVSWgw1GHgUkkKmbJQ5xE1r4X617HRPw="
+     "rev": "793ce033486f88644397d8326186aa1487689c35",
+    "hash": "sha256-URROFBDHAKJyb9xfcfyP/U9LZxzzwSMmAEqW/4mByZU="
   },
   "scss": {
-    "rev": "1f491009c634277a971d1c682a24cb7ceaef7eb0",
-    "hash": "sha256-7VRyhgFfrBKYVSWgw1GHgUkkKmbJQ5xE1r4X617HRPw="
+     "rev": "793ce033486f88644397d8326186aa1487689c35",
+    "hash": "sha256-URROFBDHAKJyb9xfcfyP/U9LZxzzwSMmAEqW/4mByZU="
   },
   "tmux": {
-    "rev": "1f491009c634277a971d1c682a24cb7ceaef7eb0",
-    "hash": "sha256-7VRyhgFfrBKYVSWgw1GHgUkkKmbJQ5xE1r4X617HRPw="
+     "rev": "793ce033486f88644397d8326186aa1487689c35",
+    "hash": "sha256-URROFBDHAKJyb9xfcfyP/U9LZxzzwSMmAEqW/4mByZU="
   }
 }
