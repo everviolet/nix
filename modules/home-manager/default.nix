@@ -3,7 +3,7 @@
 {
   imports = [
     (lib.modules.importApply ../global.nix {
-      evgModules = import ./all-modules.nix;
+      evgModules = import ./module-list.nix;
       inherit evgLib;
     })
   ];
