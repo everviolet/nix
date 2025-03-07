@@ -1,26 +1,26 @@
 {
   "alacritty": {
-     "rev": "793ce033486f88644397d8326186aa1487689c35",
-    "hash": "sha256-URROFBDHAKJyb9xfcfyP/U9LZxzzwSMmAEqW/4mByZU="
+    "rev": "58e220831631cb88ec12730f3f0ac665eb148f7e",
+    "hash": "sha256-sdAeFLUYyt6OuP7mqBrPt0SX5Wdr976o9lIbnGfO/+E="
   },
   "base16": {
-     "rev": "793ce033486f88644397d8326186aa1487689c35",
-    "hash": "sha256-URROFBDHAKJyb9xfcfyP/U9LZxzzwSMmAEqW/4mByZU="
+    "rev": "58e220831631cb88ec12730f3f0ac665eb148f7e",
+    "hash": "sha256-sdAeFLUYyt6OuP7mqBrPt0SX5Wdr976o9lIbnGfO/+E="
   },
   "iterm": {
-     "rev": "793ce033486f88644397d8326186aa1487689c35",
-    "hash": "sha256-URROFBDHAKJyb9xfcfyP/U9LZxzzwSMmAEqW/4mByZU="
+    "rev": "58e220831631cb88ec12730f3f0ac665eb148f7e",
+    "hash": "sha256-sdAeFLUYyt6OuP7mqBrPt0SX5Wdr976o9lIbnGfO/+E="
   },
   "kitty": {
-     "rev": "793ce033486f88644397d8326186aa1487689c35",
-    "hash": "sha256-URROFBDHAKJyb9xfcfyP/U9LZxzzwSMmAEqW/4mByZU="
+    "rev": "58e220831631cb88ec12730f3f0ac665eb148f7e",
+    "hash": "sha256-sdAeFLUYyt6OuP7mqBrPt0SX5Wdr976o9lIbnGfO/+E="
   },
   "scss": {
-     "rev": "793ce033486f88644397d8326186aa1487689c35",
-    "hash": "sha256-URROFBDHAKJyb9xfcfyP/U9LZxzzwSMmAEqW/4mByZU="
+    "rev": "58e220831631cb88ec12730f3f0ac665eb148f7e",
+    "hash": "sha256-sdAeFLUYyt6OuP7mqBrPt0SX5Wdr976o9lIbnGfO/+E="
   },
   "tmux": {
-     "rev": "793ce033486f88644397d8326186aa1487689c35",
-    "hash": "sha256-URROFBDHAKJyb9xfcfyP/U9LZxzzwSMmAEqW/4mByZU="
+    "rev": "58e220831631cb88ec12730f3f0ac665eb148f7e",
+    "hash": "sha256-sdAeFLUYyt6OuP7mqBrPt0SX5Wdr976o9lIbnGfO/+E="
   }
 }
