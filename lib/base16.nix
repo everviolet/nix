@@ -1,19 +1,26 @@
 { palette }:
-{
-  base00 = palette.base;
-  base01 = palette.red;
-  base02 = palette.green;
-  base03 = palette.yellow;
-  base04 = palette.blue;
-  base05 = palette.pink;
-  base06 = palette.aqua;
-  base07 = palette.text;
-  base08 = palette.surface0;
-  base09 = palette.red;
-  base0A = palette.green;
-  base0B = palette.yellow;
-  base0C = palette.blue;
-  base0D = palette.pink;
-  base0E = palette.aqua;
-  base0F = palette.subtext0;
-}
+let
+  inherit (builtins) removeAttrs mapAttrs;
+
+  themes = removeAttrs palette [ "colors" ];
+
+  mkTheme = theme: {
+    base00 = theme.base;
+    base01 = theme.red;
+    base02 = theme.green;
+    base03 = theme.yellow;
+    base04 = theme.blue;
+    base05 = theme.pink;
+    base06 = theme.aqua;
+    base07 = theme.text;
+    base08 = theme.surface0;
+    base09 = theme.red;
+    base0A = theme.green;
+    base0B = theme.yellow;
+    base0C = theme.blue;
+    base0D = theme.pink;
+    base0E = theme.aqua;
+    base0F = theme.subtext0;
+  };
+in
+mapAttrs (_: mkTheme) themes
