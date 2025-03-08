@@ -15,6 +15,10 @@
     "rev": "f577a3b67198ff7674fe74617841a4b77bd433e3",
     "hash": "sha256-89aOlgnHVOpGQOUsnKOdwnp/+kYRdql15uB67UO2eRQ="
   },
+  "lazygit": {
+    "rev": "54dbcefec441633c488f3da2981d04a3d6abd1e9",
+    "hash": "sha256-PWb/DNOBPraTcgiK/GAjIifcM+IOP3UtQvXY5IB8lA8="
+  },
   "scss": {
     "rev": "f577a3b67198ff7674fe74617841a4b77bd433e3",
     "hash": "sha256-89aOlgnHVOpGQOUsnKOdwnp/+kYRdql15uB67UO2eRQ="
