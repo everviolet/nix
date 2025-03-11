@@ -1,5 +1,6 @@
 {
   lib,
+  sources,
   stdenvNoCC,
   fetchFromGitHub,
 }:
@@ -11,21 +12,13 @@ lib.extendMkDerivation {
     version = args.version or ("0-" + (builtins.substring 0 7 finalAttrs.src.rev));
 
     src =
-      args.src or (fetchFromGitHub {
+      args.src or sources.${args.port} or (fetchFromGitHub {
         owner = "everviolet";
         repo = finalAttrs.port;
         inherit (args) rev hash;
       });
 
-    installPhase =
-      args.installPhase or ''
-        runHook preInstall
-
-        mkdir -p $out
-        cp -r themes/* $out
-
-        runHook postInstall
-      '';
+    installPhase = args.installPhase or (builtins.readFile ./install.sh);
 
     meta = (args.meta or { }) // {
       homepage = "https://github.com/everviolet/${finalAttrs.port}";

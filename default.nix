@@ -8,15 +8,35 @@
   system ? builtins.currentSystem,
 }:
 let
-  callPackage = lib.callPackageWith (pkgs // packages');
+  callPackage = lib.callPackageWith (pkgs // allPackages // { sources = sources'; });
 
-  packages' = lib.packagesFromDirectoryRecursive {
+  sources = lib.importJSON ./pkgs/ports.json;
+
+  sources' = lib.mapAttrs (
+    port: attrs:
+    pkgs.fetchFromGitHub {
+      owner = "everviolet";
+      repo = port;
+      inherit (attrs) rev hash;
+    }
+  ) sources;
+
+  packages = lib.packagesFromDirectoryRecursive {
     directory = ./pkgs;
     inherit callPackage;
   };
 
-  packages = builtins.mapAttrs (
-    port: args: packages'.buildEvergardenPort ({ inherit port; } // args)
-  ) (lib.importJSON ./pkgs/ports.json);
+  portsWithPackage = builtins.attrNames packages;
+  portsWithoutPackage = builtins.removeAttrs sources portsWithPackage;
+
+  packages' = lib.mapAttrs (
+    port: attrs:
+    packages.buildEvergardenPort {
+      inherit port;
+      inherit (attrs) rev hash;
+    }
+  ) portsWithoutPackage;
+
+  allPackages = packages // packages';
 in
-packages
+allPackages
