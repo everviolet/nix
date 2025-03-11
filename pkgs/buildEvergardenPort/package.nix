@@ -7,14 +7,14 @@ lib.extendMkDerivation {
   constructDrv = stdenvNoCC.mkDerivation;
 
   extendDrvArgs = finalAttrs: args: {
-    name = "evergarden-${args.port}-${args.version or (builtins.substring 0 7 finalAttrs.src.rev)}";
+    pname = "evergarden-${args.port}";
+    version = args.version or ("0-" + (builtins.substring 0 7 finalAttrs.src.rev));
 
     src =
       args.src or (fetchFromGitHub {
         owner = "everviolet";
-        repo = "ports";
+        repo = finalAttrs.port;
         inherit (args) rev hash;
-        sparseCheckout = [ "ports/${args.port}" ];
       });
 
     installPhase =
@@ -22,13 +22,13 @@ lib.extendMkDerivation {
         runHook preInstall
 
         mkdir -p $out
-        cp -r ports/${args.port}/* $out
+        cp -r themes/* $out
 
         runHook postInstall
       '';
 
     meta = (args.meta or { }) // {
-      homepage = "https://github.com/everviolet/ports/tree/mega/ports/${finalAttrs.pname}";
+      homepage = "https://github.com/everviolet/${finalAttrs.port}";
       maintainers = with lib.maintainers; [
         isabelroses
         comfysage
