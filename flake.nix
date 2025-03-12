@@ -45,5 +45,14 @@
 
         evergarden = self.homeManagerModules.default;
       };
+
+      devShells = forAllSystems (pkgs: {
+        default = pkgs.mkShellNoCC {
+          packages = with pkgs; [
+            just
+            nvfetcher
+          ];
+        };
+      });
     };
 }
