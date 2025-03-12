@@ -1,0 +1,24 @@
+[alacritty]
+src.git = "https://github.com/everviolet/alacritty"
+fetch.github = "everviolet/alacritty"
+[base16]
+src.git = "https://github.com/everviolet/base16"
+fetch.github = "everviolet/base16"
+[dunst]
+src.git = "https://github.com/everviolet/dunst"
+fetch.github = "everviolet/dunst"
+[iterm]
+src.git = "https://github.com/everviolet/iterm"
+fetch.github = "everviolet/iterm"
+[kitty]
+src.git = "https://github.com/everviolet/kitty"
+fetch.github = "everviolet/kitty"
+[lazygit]
+src.git = "https://github.com/everviolet/lazygit"
+fetch.github = "everviolet/lazygit"
+[scss]
+src.git = "https://github.com/everviolet/scss"
+fetch.github = "everviolet/scss"
+[tmux]
+src.git = "https://github.com/everviolet/tmux"
+fetch.github = "everviolet/tmux"
