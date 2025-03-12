@@ -1,7 +1,7 @@
 {
     "alacritty": {
         "cargoLocks": null,
-        "date": "2025-03-11",
+        "date": "2025-03-12",
         "extract": null,
         "name": "alacritty",
         "passthru": null,
@@ -13,16 +13,16 @@
             "name": null,
             "owner": "everviolet",
             "repo": "alacritty",
-            "rev": "b27ecc36ec9cacddfff0f3963af00a5b52d1cf02",
-            "sha256": "sha256-7kv1x0MBdc1QPoaO1mXhTjMRLNDagPh3Kw4YQhFXo+Q=",
+            "rev": "4a01f85ad58caa57f030f0fcb032c2c001ba221d",
+            "sha256": "sha256-KQFJbTLVfpqWv2B4CW+niit9edv6/auVJOAtS6a+GTc=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "b27ecc36ec9cacddfff0f3963af00a5b52d1cf02"
+        "version": "4a01f85ad58caa57f030f0fcb032c2c001ba221d"
     },
     "base16": {
         "cargoLocks": null,
-        "date": "2025-03-11",
+        "date": "2025-03-12",
         "extract": null,
         "name": "base16",
         "passthru": null,
@@ -34,16 +34,16 @@
             "name": null,
             "owner": "everviolet",
             "repo": "base16",
-            "rev": "67fc690d16dea7bed0eb80a62a6cb0619d3c2a88",
-            "sha256": "sha256-1UZmQ0S+1UTA4AR47Ko9ZHDoPMuU5vfjN912pYqqpnk=",
+            "rev": "bb35ccfac371526f0c672643db151b15b4c59ee7",
+            "sha256": "sha256-IxrCNtNPkuNkwX2uM3laa1FWFEm+cv/Jnq8eQOi1Rds=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "67fc690d16dea7bed0eb80a62a6cb0619d3c2a88"
+        "version": "bb35ccfac371526f0c672643db151b15b4c59ee7"
     },
     "dunst": {
         "cargoLocks": null,
-        "date": "2025-03-11",
+        "date": "2025-03-12",
         "extract": null,
         "name": "dunst",
         "passthru": null,
@@ -55,16 +55,16 @@
             "name": null,
             "owner": "everviolet",
             "repo": "dunst",
-            "rev": "9c97729c4175a014bc04cf83db45eda7fb287ff5",
-            "sha256": "sha256-7SiKrYv4ULp/gqgCwGurxWiG4wE7vAhSadtVzpiSqyM=",
+            "rev": "a4f5ebe88dfaef530832a1a534cf568f4b12c727",
+            "sha256": "sha256-57CEaE9K8aGzIVVv3OOyQgiHqQ3Y4cH/9UySRD44qbw=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "9c97729c4175a014bc04cf83db45eda7fb287ff5"
+        "version": "a4f5ebe88dfaef530832a1a534cf568f4b12c727"
     },
     "iterm": {
         "cargoLocks": null,
-        "date": "2025-03-11",
+        "date": "2025-03-12",
         "extract": null,
         "name": "iterm",
         "passthru": null,
@@ -76,16 +76,16 @@
             "name": null,
             "owner": "everviolet",
             "repo": "iterm",
-            "rev": "f29f68d7dd2ce1d4a94f34f2aa9a6294d95d28da",
-            "sha256": "sha256-KncTFP2jkCTNsM6IMDLb0u+Jdk62UcC+i5AO/LDU6Rg=",
+            "rev": "8cbc18642aa5eb13a780e5b8e89feb520b27eff5",
+            "sha256": "sha256-RQrSWWLGSum6CHy4M6Zxugd73EjACCOcxD6ofH6a9GA=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "f29f68d7dd2ce1d4a94f34f2aa9a6294d95d28da"
+        "version": "8cbc18642aa5eb13a780e5b8e89feb520b27eff5"
     },
     "kitty": {
         "cargoLocks": null,
-        "date": "2025-03-11",
+        "date": "2025-03-12",
         "extract": null,
         "name": "kitty",
         "passthru": null,
@@ -97,12 +97,12 @@
             "name": null,
             "owner": "everviolet",
             "repo": "kitty",
-            "rev": "ce2a550d02509cb180dbb7bea99f3e6a43095cad",
-            "sha256": "sha256-Hu2Ptg/k31f46FMfnOqw0XI8LiCnDCkcvFn++DcpUN8=",
+            "rev": "d8664b36e9bbfab3115ae416ab65e72f765647ae",
+            "sha256": "sha256-lHrEzsQtUJ+tCQ8avu6Pq0tVej+MDrCos37ylnqxH6Y=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "ce2a550d02509cb180dbb7bea99f3e6a43095cad"
+        "version": "d8664b36e9bbfab3115ae416ab65e72f765647ae"
     },
     "lazygit": {
         "cargoLocks": null,
@@ -127,7 +127,7 @@
     },
     "scss": {
         "cargoLocks": null,
-        "date": "2025-03-11",
+        "date": "2025-03-12",
         "extract": null,
         "name": "scss",
         "passthru": null,
@@ -139,16 +139,16 @@
             "name": null,
             "owner": "everviolet",
             "repo": "scss",
-            "rev": "474dfb8f10bec9b4fdeb8e0b2406276f5414fb9a",
-            "sha256": "sha256-Prv87KOR461sjz131uUeFr7ZDL3hHfS4xiegNsNhgFY=",
+            "rev": "bdabcb7e12ba9facbb191e1bf1443d04dbb3229e",
+            "sha256": "sha256-ZnCFA5MH/TvdMGXxLidOlwbgwOQTMz3fOqJ1BJGqVN8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "474dfb8f10bec9b4fdeb8e0b2406276f5414fb9a"
+        "version": "bdabcb7e12ba9facbb191e1bf1443d04dbb3229e"
     },
     "tmux": {
         "cargoLocks": null,
-        "date": "2025-03-11",
+        "date": "2025-03-12",
         "extract": null,
         "name": "tmux",
         "passthru": null,
@@ -160,11 +160,11 @@
             "name": null,
             "owner": "everviolet",
             "repo": "tmux",
-            "rev": "906b94e0d1a9db274f8abeac1a99cffa0c46355d",
-            "sha256": "sha256-IbcqSrO+R4xuWC1kypcGToslFUmG5igEmIkFhEjg9sg=",
+            "rev": "92755a85e5bafc72414265eb053474fbf30badc3",
+            "sha256": "sha256-3ku6JA5spb3Eru/n3sKyKti0MEnxHDOsBJsAfA/Uh7o=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "906b94e0d1a9db274f8abeac1a99cffa0c46355d"
+        "version": "92755a85e5bafc72414265eb053474fbf30badc3"
     }
 }

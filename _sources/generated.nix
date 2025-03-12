@@ -3,63 +3,63 @@
 {
   alacritty = {
     pname = "alacritty";
-    version = "b27ecc36ec9cacddfff0f3963af00a5b52d1cf02";
+    version = "4a01f85ad58caa57f030f0fcb032c2c001ba221d";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "alacritty";
-      rev = "b27ecc36ec9cacddfff0f3963af00a5b52d1cf02";
+      rev = "4a01f85ad58caa57f030f0fcb032c2c001ba221d";
       fetchSubmodules = false;
-      sha256 = "sha256-7kv1x0MBdc1QPoaO1mXhTjMRLNDagPh3Kw4YQhFXo+Q=";
+      sha256 = "sha256-KQFJbTLVfpqWv2B4CW+niit9edv6/auVJOAtS6a+GTc=";
     };
-    date = "2025-03-11";
+    date = "2025-03-12";
   };
   base16 = {
     pname = "base16";
-    version = "67fc690d16dea7bed0eb80a62a6cb0619d3c2a88";
+    version = "bb35ccfac371526f0c672643db151b15b4c59ee7";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "base16";
-      rev = "67fc690d16dea7bed0eb80a62a6cb0619d3c2a88";
+      rev = "bb35ccfac371526f0c672643db151b15b4c59ee7";
       fetchSubmodules = false;
-      sha256 = "sha256-1UZmQ0S+1UTA4AR47Ko9ZHDoPMuU5vfjN912pYqqpnk=";
+      sha256 = "sha256-IxrCNtNPkuNkwX2uM3laa1FWFEm+cv/Jnq8eQOi1Rds=";
     };
-    date = "2025-03-11";
+    date = "2025-03-12";
   };
   dunst = {
     pname = "dunst";
-    version = "9c97729c4175a014bc04cf83db45eda7fb287ff5";
+    version = "a4f5ebe88dfaef530832a1a534cf568f4b12c727";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "dunst";
-      rev = "9c97729c4175a014bc04cf83db45eda7fb287ff5";
+      rev = "a4f5ebe88dfaef530832a1a534cf568f4b12c727";
       fetchSubmodules = false;
-      sha256 = "sha256-7SiKrYv4ULp/gqgCwGurxWiG4wE7vAhSadtVzpiSqyM=";
+      sha256 = "sha256-57CEaE9K8aGzIVVv3OOyQgiHqQ3Y4cH/9UySRD44qbw=";
     };
-    date = "2025-03-11";
+    date = "2025-03-12";
   };
   iterm = {
     pname = "iterm";
-    version = "f29f68d7dd2ce1d4a94f34f2aa9a6294d95d28da";
+    version = "8cbc18642aa5eb13a780e5b8e89feb520b27eff5";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "iterm";
-      rev = "f29f68d7dd2ce1d4a94f34f2aa9a6294d95d28da";
+      rev = "8cbc18642aa5eb13a780e5b8e89feb520b27eff5";
       fetchSubmodules = false;
-      sha256 = "sha256-KncTFP2jkCTNsM6IMDLb0u+Jdk62UcC+i5AO/LDU6Rg=";
+      sha256 = "sha256-RQrSWWLGSum6CHy4M6Zxugd73EjACCOcxD6ofH6a9GA=";
     };
-    date = "2025-03-11";
+    date = "2025-03-12";
   };
   kitty = {
     pname = "kitty";
-    version = "ce2a550d02509cb180dbb7bea99f3e6a43095cad";
+    version = "d8664b36e9bbfab3115ae416ab65e72f765647ae";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "kitty";
-      rev = "ce2a550d02509cb180dbb7bea99f3e6a43095cad";
+      rev = "d8664b36e9bbfab3115ae416ab65e72f765647ae";
       fetchSubmodules = false;
-      sha256 = "sha256-Hu2Ptg/k31f46FMfnOqw0XI8LiCnDCkcvFn++DcpUN8=";
+      sha256 = "sha256-lHrEzsQtUJ+tCQ8avu6Pq0tVej+MDrCos37ylnqxH6Y=";
     };
-    date = "2025-03-11";
+    date = "2025-03-12";
   };
   lazygit = {
     pname = "lazygit";
@@ -75,26 +75,26 @@
   };
   scss = {
     pname = "scss";
-    version = "474dfb8f10bec9b4fdeb8e0b2406276f5414fb9a";
+    version = "bdabcb7e12ba9facbb191e1bf1443d04dbb3229e";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "scss";
-      rev = "474dfb8f10bec9b4fdeb8e0b2406276f5414fb9a";
+      rev = "bdabcb7e12ba9facbb191e1bf1443d04dbb3229e";
       fetchSubmodules = false;
-      sha256 = "sha256-Prv87KOR461sjz131uUeFr7ZDL3hHfS4xiegNsNhgFY=";
+      sha256 = "sha256-ZnCFA5MH/TvdMGXxLidOlwbgwOQTMz3fOqJ1BJGqVN8=";
     };
-    date = "2025-03-11";
+    date = "2025-03-12";
   };
   tmux = {
     pname = "tmux";
-    version = "906b94e0d1a9db274f8abeac1a99cffa0c46355d";
+    version = "92755a85e5bafc72414265eb053474fbf30badc3";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "tmux";
-      rev = "906b94e0d1a9db274f8abeac1a99cffa0c46355d";
+      rev = "92755a85e5bafc72414265eb053474fbf30badc3";
       fetchSubmodules = false;
-      sha256 = "sha256-IbcqSrO+R4xuWC1kypcGToslFUmG5igEmIkFhEjg9sg=";
+      sha256 = "sha256-3ku6JA5spb3Eru/n3sKyKti0MEnxHDOsBJsAfA/Uh7o=";
     };
-    date = "2025-03-11";
+    date = "2025-03-12";
   };
 }
