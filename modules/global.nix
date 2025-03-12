@@ -16,6 +16,7 @@ in
     (evgLib.options.mkEvergardenOptions {
       enableDefault = false;
       inherit config;
+      accentSupport = true;
     })
     // {
       ports = lib.mkOption {

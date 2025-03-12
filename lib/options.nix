@@ -31,7 +31,7 @@ in
     // (optionalAttrs accentSupport {
       accent = mkOption {
         type = types.enum evgLib.consts.accents;
-        default = "green";
+        default = config.evergarden.accent;
         description = "The accent to use";
       };
     });
