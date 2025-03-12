@@ -8,35 +8,29 @@
   system ? builtins.currentSystem,
 }:
 let
-  callPackage = lib.callPackageWith (pkgs // allPackages // { sources = sources'; });
+  callPackage = lib.callPackageWith (pkgs // finalPackages // { inherit sources; });
 
-  sources = lib.importJSON ./pkgs/ports.json;
+  sources = lib.pipe { } [
+    (pkgs.callPackage ./_sources/generated.nix)
+    (lib.flip lib.removeAttrs [
+      "override"
+      "overrideAttrs"
+    ])
+    (lib.mapAttrs (_: v: v.src))
+  ];
 
-  sources' = lib.mapAttrs (
-    port: attrs:
-    pkgs.fetchFromGitHub {
-      owner = "everviolet";
-      repo = port;
-      inherit (attrs) rev hash;
-    }
-  ) sources;
-
-  packages = lib.packagesFromDirectoryRecursive {
+  madePackages = lib.packagesFromDirectoryRecursive {
     directory = ./pkgs;
     inherit callPackage;
   };
 
-  portsWithPackage = builtins.attrNames packages;
-  portsWithoutPackage = builtins.removeAttrs sources portsWithPackage;
-
-  packages' = lib.mapAttrs (
-    port: attrs:
-    packages.buildEvergardenPort {
-      inherit port;
-      inherit (attrs) rev hash;
+  generatedPackages = lib.mapAttrs (
+    port: src:
+    madePackages.buildEvergardenPort {
+      inherit port src;
     }
-  ) portsWithoutPackage;
+  ) sources;
 
-  allPackages = packages // packages';
+  finalPackages = generatedPackages // madePackages;
 in
-allPackages
+finalPackages
