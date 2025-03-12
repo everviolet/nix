@@ -27,13 +27,13 @@
   };
   dunst = {
     pname = "dunst";
-    version = "a4f5ebe88dfaef530832a1a534cf568f4b12c727";
+    version = "0bcc1c6165abfd9e4ea0807d043854a1e008956c";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "dunst";
-      rev = "a4f5ebe88dfaef530832a1a534cf568f4b12c727";
+      rev = "0bcc1c6165abfd9e4ea0807d043854a1e008956c";
       fetchSubmodules = false;
-      sha256 = "sha256-57CEaE9K8aGzIVVv3OOyQgiHqQ3Y4cH/9UySRD44qbw=";
+      sha256 = "sha256-/lRvNmed6O6dKzUNdVv7LsmbmV4Bsd3DpaxraNsUv28=";
     };
     date = "2025-03-12";
   };
