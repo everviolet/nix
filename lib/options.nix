@@ -24,14 +24,14 @@ in
 
       variant = mkOption {
         type = types.enum evgLib.consts.variants;
-        default = "fall";
+        default = if enableDefault then config.evergarden.variant else "fall";
         description = "The variant to use";
       };
     }
     // (optionalAttrs accentSupport {
       accent = mkOption {
         type = types.enum evgLib.consts.accents;
-        default = config.evergarden.accent;
+        default = if enableDefault then config.evergarden.accent else "green";
         description = "The accent to use";
       };
     });
