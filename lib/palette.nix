@@ -13,12 +13,12 @@ rec {
 
   fall = colors // {
     text = "DDDECF";
-    subtext1 = "CACCBE";
-    subtext0 = "94AAA0";
+    subtext1 = "ADC9BC";
+    subtext0 = "96B4AA";
     overlay2 = "839E9A";
-    overlay1 = "738A8B";
-    overlay0 = "617377";
-    surface2 = "4F5E62";
+    overlay1 = "6F8788";
+    overlay0 = "58686D";
+    surface2 = "4A585C";
     surface1 = "3D494D";
     surface0 = "313B40";
     base = "232A2E";
