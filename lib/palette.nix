@@ -1,18 +1,21 @@
 rec {
   colors = {
-    red = "E67E80";
-    orange = "E69F7F";
-    yellow = "E1C182";
-    green = "BCD19C";
-    aqua = "A1CFAD";
-    skye = "9ECEC8";
-    blue = "9BB5CF";
-    purple = "C8AFE0";
-    pink = "EBB9DD";
+    red = "F57F82";
+    orange = "F7A182";
+    yellow = "F5D098";
+    lime = "DBE6AF";
+    green = "CAE0A7";
+    aqua = "ADDEB9";
+    skye = "ACE0D4";
+    snow = "AFDFE6";
+    blue = "B2CFED";
+    purple = "D0BBF0";
+    pink = "F3C0E5";
+    cherry = "F6CEE5";
   };
 
   fall = colors // {
-    text = "DDDECF";
+    text = "F8F9E8";
     subtext1 = "ADC9BC";
     subtext0 = "96B4AA";
     overlay2 = "839E9A";
@@ -42,12 +45,15 @@ rec {
     red = "C0696B";
     orange = "CA8C70";
     yellow = "CBAE75";
+    lime = "B4C17F";
     green = "A9BE88";
     aqua = "91BB9C";
     skye = "8FBAB5";
+    snow = "8EB4BA";
     blue = "8CA4BB";
     purple = "B19AC6";
     pink = "D0A3C3";
+    cherry = "DBB5CA";
     text = "171C1F";
     subtext1 = "415055";
     subtext0 = "526469";
