@@ -23,13 +23,25 @@ palette: ''
                         <key>invisibles</key>
                         <string>#${palette.overlay1}</string>
                         <key>lineHighlight</key>
-                        <string>#${palette.surface1}</string>
+                        <string>#${palette.surface0}</string>
                         <key>selection</key>
-                        <string>#${palette.surface2}</string>
+                        <string>#${palette.surface1}</string>
+                        <key>selectionBorder</key>
+                        <string>#${palette.subtext0}</string>
                         <key>gutter</key>
                         <string>#${palette.surface0}</string>
                         <key>gutterForeground</key>
+                        <string>#${palette.surface1}</string>
+                        <key>invisibles</key>
                         <string>#${palette.overlay0}</string>
+                        <key>findHighlight</key>
+                        <string>#${palette.snow}/string>
+                        <key>findHighlightForeground</key>
+                        <string>#${palette.crust}</string>
+                        <key>activeGuide</key>
+                        <string>#${palette.orange}</string>
+                        <key>bracketsForeground</key>
+                        <string>#${palette.overlay1}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -51,7 +63,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.overlay0}</string>
+                        <string>#${palette.overlay2}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -62,7 +74,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.overlay0}</string>
+                        <string>#${palette.overlay1}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -73,7 +85,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.overlay0}</string>
+                        <string>#${palette.overlay1}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -84,7 +96,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.overlay0}</string>
+                        <string>#${palette.overlay1}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -183,7 +195,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.purple}</string>
+                        <string>#${palette.pink}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -194,7 +206,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.green}</string>
+                        <string>#${palette.lime}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -205,7 +217,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.purple}</string>
+                        <string>#${palette.pink}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -216,7 +228,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.purple}</string>
+                        <string>#${palette.pink}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -227,7 +239,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.purple}</string>
+                        <string>#${palette.pink}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -238,7 +250,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.purple}</string>
+                        <string>#${palette.pink}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -249,7 +261,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.blue}</string>
+                        <string>#${palette.overlay1}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -260,7 +272,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.blue}</string>
+                        <string>#${palette.cherry}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -271,7 +283,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.blue}</string>
+                        <string>#${palette.pink}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -282,7 +294,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.red}</string>
+                        <string>#${palette.text}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -293,7 +305,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.green}</string>
+                        <string>#${palette.text}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -306,7 +318,7 @@ palette: ''
                         <key>fontStyle</key>
                         <string></string>
                         <key>foreground</key>
-                        <string>#${palette.purple}</string>
+                        <string>#${palette.red}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -317,7 +329,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.purple}</string>
+                        <string>#${palette.pink}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -330,7 +342,7 @@ palette: ''
                         <key>fontStyle</key>
                         <string>bold</string>
                         <key>foreground</key>
-                        <string>#${palette.orange}</string>
+                        <string>#${palette.aqua}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -343,7 +355,7 @@ palette: ''
                         <key>fontStyle</key>
                         <string>italic</string>
                         <key>foreground</key>
-                        <string>#${palette.orange}</string>
+                        <string>#${palette.aqua}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -354,7 +366,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.overlay0}</string>
+                        <string>#${palette.overlay1}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -365,7 +377,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.purple}</string>
+                        <string>#${palette.aqua}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -376,7 +388,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.surface0}</string>
+                        <string>#${palette.blue}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -387,7 +399,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.overlay1}</string>
+                        <string>#${palette.overlay2}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -397,10 +409,8 @@ palette: ''
                     <string>meta.separator</string>
                     <key>settings</key>
                     <dict>
-                        <key>background</key>
-                        <string>#${palette.overlay0}</string>
                         <key>foreground</key>
-                        <string>#${palette.text}</string>
+                        <string>#${palette.overlay1}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -411,7 +421,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.blue}</string>
+                        <string>#${palette.green}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -444,7 +454,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.purple}</string>
+                        <string>#${palette.pink}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -455,7 +465,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.green}</string>
+                        <string>#${palette.yellow}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -466,7 +476,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.orange}</string>
+                        <string>#${palette.yellow}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -477,7 +487,7 @@ palette: ''
                     <key>settings</key>
                     <dict>
                         <key>foreground</key>
-                        <string>#${palette.purple}</string>
+                        <string>#${palette.aqua}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -490,7 +500,7 @@ palette: ''
                         <key>background</key>
                         <string>#${palette.red}</string>
                         <key>foreground</key>
-                        <string>#${palette.base}</string>
+                        <string>#${palette.crust}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -503,7 +513,7 @@ palette: ''
                         <key>background</key>
                         <string>#${palette.red}</string>
                         <key>foreground</key>
-                        <string>#${palette.base}</string>
+                        <string>#${palette.crust}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -516,7 +526,7 @@ palette: ''
                         <key>background</key>
                         <string>#${palette.yellow}</string>
                         <key>foreground</key>
-                        <string>#${palette.base}</string>
+                        <string>#${palette.crust}</string>
                     </dict>
                 </dict>
                 <dict>
@@ -529,7 +539,7 @@ palette: ''
                         <key>background</key>
                         <string>#${palette.yellow}</string>
                         <key>foreground</key>
-                        <string>#${palette.base}</string>
+                        <string>#${palette.crust}</string>
                     </dict>
                 </dict>
             </array>
