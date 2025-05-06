@@ -13,6 +13,8 @@ let
   inherit (evgLib) palette;
   sp = palette.${cfg.variant};
 
+  accent = sp.${cfg.accent};
+
   mkFg = fg: { fg = "#${fg}"; };
   mkBg = bg: { bg = "#${bg}"; };
   mkBoth = fg: bg: (mkFg fg) // (mkBg bg);
@@ -50,10 +52,10 @@ in
       };
 
       mode = {
-        normal_main = mkBoth sp.base sp.green;
-        normal_alt = mkBoth sp.base sp.green;
-        select_main = mkBoth sp.base sp.purple;
-        select_alt = mkBoth sp.purple sp.base;
+        normal_main = mkBoth sp.base accent;
+        normal_alt = mkBoth accent sp.base;
+        select_main = mkBoth sp.base sp.pink;
+        select_alt = mkBoth sp.pink sp.base;
         unset_main = mkBoth sp.base sp.overlay1;
         unset_alt = mkBoth sp.overlay1 sp.base;
       };
@@ -71,26 +73,26 @@ in
       };
 
       select = {
-        border = mkFg sp.green;
+        border = mkFg accent;
         active = mkFg sp.pink;
         inactive = mkFg sp.text;
       };
 
       input = {
-        border = mkFg sp.green;
+        border = mkFg accent;
         title = mkFg sp.text;
         value = mkFg sp.text;
         selected = mkBg sp.surface0;
       };
 
       completion = {
-        border = mkFg sp.green;
+        border = mkFg accent;
         active = mkBoth sp.pink sp.surface0;
         inactive = mkFg sp.text;
       };
 
       tasks = {
-        border = mkFg sp.green;
+        border = mkFg accent;
         title = mkFg sp.text;
         hovered = mkBoth sp.text sp.surface0;
       };
@@ -131,7 +133,7 @@ in
         (mkRule "application/rtf" sp.green)
         (mkRule "application/vnd.*" sp.green)
 
-        ((mkRule "inode/directory" sp.overlay2) // { bold = true; })
+        (mkRule "inode/directory" sp.overlay2)
         (mkRule "*" sp.subtext1)
       ];
     };
