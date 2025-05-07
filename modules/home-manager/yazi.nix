@@ -28,6 +28,7 @@ in
   options.evergarden.yazi = evgLib.options.mkEvergardenOptions {
     port = "yazi";
     inherit config;
+    accentSupport = true;
   };
 
   config = mkIf cfg.enable {
