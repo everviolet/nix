@@ -54,5 +54,7 @@
           ];
         };
       });
+
+      formatter = forAllSystems (pkgs: pkgs.nixfmt-rfc-style);
     };
 }
