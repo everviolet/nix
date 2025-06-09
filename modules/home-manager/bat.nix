@@ -1,17 +1,14 @@
 { evgLib }:
 {
   lib,
-  pkgs,
   config,
   ...
 }:
 let
   inherit (lib) mkIf;
 
+  inherit (config.evergarden) ports;
   cfg = config.evergarden.bat;
-
-  inherit (evgLib) palette;
-  sp = palette.${cfg.variant};
 in
 {
   options.evergarden.bat = evgLib.options.mkEvergardenOptions {
@@ -23,9 +20,9 @@ in
     programs.bat = {
       config.theme = "evergarden";
 
-      themes.evergarden.src = pkgs.writeTextFile {
-        name = "evergarden-syntax";
-        text = evgLib.textmate sp;
+      themes.evergarden = {
+        src = ports.bat;
+        file = "evergarden-${cfg.variant}.tmTheme";
       };
     };
   };

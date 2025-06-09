@@ -25,6 +25,18 @@
     };
     date = "2025-03-12";
   };
+  bat = {
+    pname = "bat";
+    version = "60c4b425eb1f545b50ad79e088a08aacdab3b85b";
+    src = fetchFromGitHub {
+      owner = "everviolet";
+      repo = "bat";
+      rev = "60c4b425eb1f545b50ad79e088a08aacdab3b85b";
+      fetchSubmodules = false;
+      sha256 = "sha256-ravSDh8CBC6iukL+rx8XhtPES9qSo52J0pu6gUtaKt8=";
+    };
+    date = "2025-06-08";
+  };
   dunst = {
     pname = "dunst";
     version = "0bcc1c6165abfd9e4ea0807d043854a1e008956c";

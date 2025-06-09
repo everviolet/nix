@@ -4,6 +4,9 @@ fetch.github = "everviolet/alacritty"
 [base16]
 src.git = "https://github.com/everviolet/base16"
 fetch.github = "everviolet/base16"
+[bat]
+src.git = "https://github.com/everviolet/bat"
+fetch.github = "everviolet/bat"
 [dunst]
 src.git = "https://github.com/everviolet/dunst"
 fetch.github = "everviolet/dunst"

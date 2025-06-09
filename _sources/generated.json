@@ -41,6 +41,27 @@
         },
         "version": "bb35ccfac371526f0c672643db151b15b4c59ee7"
     },
+    "bat": {
+        "cargoLocks": null,
+        "date": "2025-06-08",
+        "extract": null,
+        "name": "bat",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "everviolet",
+            "repo": "bat",
+            "rev": "60c4b425eb1f545b50ad79e088a08aacdab3b85b",
+            "sha256": "sha256-ravSDh8CBC6iukL+rx8XhtPES9qSo52J0pu6gUtaKt8=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "60c4b425eb1f545b50ad79e088a08aacdab3b85b"
+    },
     "dunst": {
         "cargoLocks": null,
         "date": "2025-03-12",
