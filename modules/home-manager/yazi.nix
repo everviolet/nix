@@ -53,12 +53,12 @@ in
       };
 
       mode = {
-        normal_main = mkBoth sp.base accent;
-        normal_alt = mkBoth accent sp.base;
-        select_main = mkBoth sp.base sp.pink;
-        select_alt = mkBoth sp.pink sp.base;
-        unset_main = mkBoth sp.base sp.overlay1;
-        unset_alt = mkBoth sp.overlay1 sp.base;
+        normal_main = mkBoth sp.crust accent;
+        normal_alt = mkBoth accent sp.surface0;
+        select_main = mkBoth sp.crust sp.pink;
+        select_alt = mkBoth sp.pink sp.surface0;
+        unset_main = mkBoth sp.crust sp.subtext0;
+        unset_alt = mkBoth sp.subtext0 sp.surface0;
       };
 
       status = {
@@ -104,6 +104,11 @@ in
         rest = mkFg sp.overlay0;
         desc = mkFg sp.text;
         separator_style = mkFg sp.overlay1;
+      };
+
+      tabs = {
+        active = mkBoth sp.crust sp.accent;
+        inactive = mkBoth sp.accent sp.surface0;
       };
 
       help = {
