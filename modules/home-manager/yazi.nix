@@ -107,8 +107,8 @@ in
       };
 
       tabs = {
-        active = mkBoth sp.crust sp.accent;
-        inactive = mkBoth sp.accent sp.surface0;
+        active = mkBoth sp.crust accent;
+        inactive = mkBoth accent sp.surface0;
       };
 
       help = {
