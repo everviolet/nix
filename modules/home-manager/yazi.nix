@@ -33,7 +33,7 @@ in
 
   config = mkIf cfg.enable {
     programs.yazi.theme = {
-      manager = {
+      mgr = {
         syntect_theme = pkgs.writeTextFile {
           name = "evergarden-syntax";
           text = evgLib.textmate sp;
