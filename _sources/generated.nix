@@ -49,6 +49,18 @@
     };
     date = "2025-03-12";
   };
+  ghostty = {
+    pname = "ghostty";
+    version = "b5037af06f7e97bd07639c09eafea5495b9c8dcb";
+    src = fetchFromGitHub {
+      owner = "everviolet";
+      repo = "ghostty";
+      rev = "b5037af06f7e97bd07639c09eafea5495b9c8dcb";
+      fetchSubmodules = false;
+      sha256 = "sha256-T4KoosLbFKheXIdOFHGlF1QXTSjUpJ6eNwDkCc/oSbM=";
+    };
+    date = "2025-07-09";
+  };
   iterm = {
     pname = "iterm";
     version = "8cbc18642aa5eb13a780e5b8e89feb520b27eff5";

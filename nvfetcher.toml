@@ -10,6 +10,9 @@ fetch.github = "everviolet/bat"
 [dunst]
 src.git = "https://github.com/everviolet/dunst"
 fetch.github = "everviolet/dunst"
+[ghostty]
+src.git = "https://github.com/everviolet/ghostty"
+fetch.github = "everviolet/ghostty"
 [iterm]
 src.git = "https://github.com/everviolet/iterm"
 fetch.github = "everviolet/iterm"

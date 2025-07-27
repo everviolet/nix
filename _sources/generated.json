@@ -83,6 +83,27 @@
         },
         "version": "0bcc1c6165abfd9e4ea0807d043854a1e008956c"
     },
+    "ghostty": {
+        "cargoLocks": null,
+        "date": "2025-07-09",
+        "extract": null,
+        "name": "ghostty",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "everviolet",
+            "repo": "ghostty",
+            "rev": "b5037af06f7e97bd07639c09eafea5495b9c8dcb",
+            "sha256": "sha256-T4KoosLbFKheXIdOFHGlF1QXTSjUpJ6eNwDkCc/oSbM=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "b5037af06f7e97bd07639c09eafea5495b9c8dcb"
+    },
     "iterm": {
         "cargoLocks": null,
         "date": "2025-03-12",
