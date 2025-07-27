@@ -4,5 +4,6 @@
   ./dunst.nix
   ./kitty.nix
   ./lazygit.nix
+  ./tmux.nix
   ./yazi.nix
 ]
