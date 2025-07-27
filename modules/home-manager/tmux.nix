@@ -18,7 +18,7 @@ in
   config = mkIf cfg.enable {
     programs.tmux.plugins = [
       {
-        plugin = config.evergarden.sources.tmux;
+        plugin = config.evergarden.ports.tmux;
         extraConfig = ''
           set -gq @evergarden_style "${cfg.variant}"
         '';
