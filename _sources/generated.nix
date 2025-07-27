@@ -109,6 +109,18 @@
     };
     date = "2025-03-12";
   };
+  spicetify = {
+    pname = "spicetify";
+    version = "d37d8ce00ba544f95d42e92eb8c4c23048d39720";
+    src = fetchFromGitHub {
+      owner = "everviolet";
+      repo = "spicetify";
+      rev = "d37d8ce00ba544f95d42e92eb8c4c23048d39720";
+      fetchSubmodules = false;
+      sha256 = "sha256-mjsCNGXOUT9dVfgyGHQ8P3zwwWyyYHqT/66xhOgdNG0=";
+    };
+    date = "2025-07-25";
+  };
   tmux = {
     pname = "tmux";
     version = "92755a85e5bafc72414265eb053474fbf30badc3";

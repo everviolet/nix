@@ -5,6 +5,7 @@
   ./ghostty.nix
   ./kitty.nix
   ./lazygit.nix
+  ./spicetify.nix
   ./tmux.nix
   ./yazi.nix
 ]

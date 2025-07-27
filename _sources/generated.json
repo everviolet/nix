@@ -188,6 +188,27 @@
         },
         "version": "bdabcb7e12ba9facbb191e1bf1443d04dbb3229e"
     },
+    "spicetify": {
+        "cargoLocks": null,
+        "date": "2025-07-25",
+        "extract": null,
+        "name": "spicetify",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "everviolet",
+            "repo": "spicetify",
+            "rev": "d37d8ce00ba544f95d42e92eb8c4c23048d39720",
+            "sha256": "sha256-mjsCNGXOUT9dVfgyGHQ8P3zwwWyyYHqT/66xhOgdNG0=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "d37d8ce00ba544f95d42e92eb8c4c23048d39720"
+    },
     "tmux": {
         "cargoLocks": null,
         "date": "2025-03-12",

@@ -25,6 +25,9 @@ fetch.github = "everviolet/lazygit"
 [scss]
 src.git = "https://github.com/everviolet/scss"
 fetch.github = "everviolet/scss"
+[spicetify]
+src.git = "https://github.com/everviolet/spicetify"
+fetch.github = "everviolet/spicetify"
 [tmux]
 src.git = "https://github.com/everviolet/tmux"
 fetch.github = "everviolet/tmux"
