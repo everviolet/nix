@@ -13,6 +13,7 @@ in
   options.evergarden.tmux = evgLib.options.mkEvergardenOptions {
     port = "tmux";
     inherit config;
+    accentSupport = true;
   };
 
   config = mkIf cfg.enable {
@@ -20,7 +21,8 @@ in
       {
         plugin = config.evergarden.ports.tmux;
         extraConfig = ''
-          set -gq @evergarden_style "${cfg.variant}"
+          set -gq @evergarden_variant "${cfg.variant}"
+          set -gq @evergarden_accent "${cfg.accent}"
         '';
       }
     ];
