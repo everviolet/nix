@@ -3,111 +3,111 @@
 {
   alacritty = {
     pname = "alacritty";
-    version = "4a01f85ad58caa57f030f0fcb032c2c001ba221d";
+    version = "a6e2ec641fe19703e80dd7e474bc36d81cd8b4fc";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "alacritty";
-      rev = "4a01f85ad58caa57f030f0fcb032c2c001ba221d";
+      rev = "a6e2ec641fe19703e80dd7e474bc36d81cd8b4fc";
       fetchSubmodules = false;
-      sha256 = "sha256-KQFJbTLVfpqWv2B4CW+niit9edv6/auVJOAtS6a+GTc=";
-    };
-    date = "2025-03-12";
-  };
-  base16 = {
-    pname = "base16";
-    version = "bb35ccfac371526f0c672643db151b15b4c59ee7";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "base16";
-      rev = "bb35ccfac371526f0c672643db151b15b4c59ee7";
-      fetchSubmodules = false;
-      sha256 = "sha256-IxrCNtNPkuNkwX2uM3laa1FWFEm+cv/Jnq8eQOi1Rds=";
-    };
-    date = "2025-03-12";
-  };
-  bat = {
-    pname = "bat";
-    version = "60c4b425eb1f545b50ad79e088a08aacdab3b85b";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "bat";
-      rev = "60c4b425eb1f545b50ad79e088a08aacdab3b85b";
-      fetchSubmodules = false;
-      sha256 = "sha256-ravSDh8CBC6iukL+rx8XhtPES9qSo52J0pu6gUtaKt8=";
-    };
-    date = "2025-06-08";
-  };
-  dunst = {
-    pname = "dunst";
-    version = "0bcc1c6165abfd9e4ea0807d043854a1e008956c";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "dunst";
-      rev = "0bcc1c6165abfd9e4ea0807d043854a1e008956c";
-      fetchSubmodules = false;
-      sha256 = "sha256-/lRvNmed6O6dKzUNdVv7LsmbmV4Bsd3DpaxraNsUv28=";
-    };
-    date = "2025-03-12";
-  };
-  ghostty = {
-    pname = "ghostty";
-    version = "b5037af06f7e97bd07639c09eafea5495b9c8dcb";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "ghostty";
-      rev = "b5037af06f7e97bd07639c09eafea5495b9c8dcb";
-      fetchSubmodules = false;
-      sha256 = "sha256-T4KoosLbFKheXIdOFHGlF1QXTSjUpJ6eNwDkCc/oSbM=";
+      sha256 = "sha256-Gd08tvHGf0SW5Xq29ctts5+2hepQuC84cShX9lVaV9Y=";
     };
     date = "2025-07-09";
   };
+  base16 = {
+    pname = "base16";
+    version = "d2bfc04cafa29c681c229fefd0488c7f692368cd";
+    src = fetchFromGitHub {
+      owner = "everviolet";
+      repo = "base16";
+      rev = "d2bfc04cafa29c681c229fefd0488c7f692368cd";
+      fetchSubmodules = false;
+      sha256 = "sha256-c43UWmJ61NgeD8Mrzt/YxL6rPNAVR6dv4alCAH1ov/U=";
+    };
+    date = "2025-07-09";
+  };
+  bat = {
+    pname = "bat";
+    version = "1eb44bf7fc2ed402ea96f4945cfe572b6f50d5a5";
+    src = fetchFromGitHub {
+      owner = "everviolet";
+      repo = "bat";
+      rev = "1eb44bf7fc2ed402ea96f4945cfe572b6f50d5a5";
+      fetchSubmodules = false;
+      sha256 = "sha256-vj3P3JTZQM9b4Cldpr7rf+5Jjlj4u5DrTZ6TC4ai6F4=";
+    };
+    date = "2025-07-09";
+  };
+  dunst = {
+    pname = "dunst";
+    version = "4255c93279c2ee659b77fcfaa16c79ed5f657af1";
+    src = fetchFromGitHub {
+      owner = "everviolet";
+      repo = "dunst";
+      rev = "4255c93279c2ee659b77fcfaa16c79ed5f657af1";
+      fetchSubmodules = false;
+      sha256 = "sha256-utu8EWSpJso+dpZ1vY+xUSRrAYGVCzseKKKlLh3NT18=";
+    };
+    date = "2025-07-09";
+  };
+  ghostty = {
+    pname = "ghostty";
+    version = "9d74702f2070c597b7d89501357f56e55d3306e9";
+    src = fetchFromGitHub {
+      owner = "everviolet";
+      repo = "ghostty";
+      rev = "9d74702f2070c597b7d89501357f56e55d3306e9";
+      fetchSubmodules = false;
+      sha256 = "sha256-RuWaPm8+ylBkkEc9Y/xu43hrwQkyfL5yWF2uGYPttnU=";
+    };
+    date = "2025-08-03";
+  };
   iterm = {
     pname = "iterm";
-    version = "8cbc18642aa5eb13a780e5b8e89feb520b27eff5";
+    version = "8136aae240ae2c14faf741601396c7d99000f5d9";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "iterm";
-      rev = "8cbc18642aa5eb13a780e5b8e89feb520b27eff5";
+      rev = "8136aae240ae2c14faf741601396c7d99000f5d9";
       fetchSubmodules = false;
-      sha256 = "sha256-RQrSWWLGSum6CHy4M6Zxugd73EjACCOcxD6ofH6a9GA=";
+      sha256 = "sha256-zTQuEBjxxl2k4Z3nbjHGduiCXNv/ZN7FGyHb5m/0ltM=";
     };
-    date = "2025-03-12";
+    date = "2025-07-09";
   };
   kitty = {
     pname = "kitty";
-    version = "d8664b36e9bbfab3115ae416ab65e72f765647ae";
+    version = "0cb95deac711c7102dd93279d25149a142f03251";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "kitty";
-      rev = "d8664b36e9bbfab3115ae416ab65e72f765647ae";
+      rev = "0cb95deac711c7102dd93279d25149a142f03251";
       fetchSubmodules = false;
-      sha256 = "sha256-lHrEzsQtUJ+tCQ8avu6Pq0tVej+MDrCos37ylnqxH6Y=";
+      sha256 = "sha256-Etc5eAAk0Bux7yE1A17OMcV2+N0PzonGCMHJq0gAiXc=";
     };
-    date = "2025-03-12";
+    date = "2025-07-09";
   };
   lazygit = {
     pname = "lazygit";
-    version = "ed2f96b1c9c1b479ed0304e91de01725c55ea860";
+    version = "7273109ff66d1523db380ac251c05fcb6ad51a68";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "lazygit";
-      rev = "ed2f96b1c9c1b479ed0304e91de01725c55ea860";
+      rev = "7273109ff66d1523db380ac251c05fcb6ad51a68";
       fetchSubmodules = false;
-      sha256 = "sha256-0LRwuZYkx7DgCrG7R18RGu2LdOYmC9lOD1Dv5v8QfZI=";
+      sha256 = "sha256-sv1TSw8aVRF0na/8IP2HQGKZt+FJyQq+OI1vFo2SBVQ=";
     };
-    date = "2025-03-11";
+    date = "2025-07-09";
   };
   scss = {
     pname = "scss";
-    version = "bdabcb7e12ba9facbb191e1bf1443d04dbb3229e";
+    version = "f294aec5657313268d616cc8330fbb423a8839db";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "scss";
-      rev = "bdabcb7e12ba9facbb191e1bf1443d04dbb3229e";
+      rev = "f294aec5657313268d616cc8330fbb423a8839db";
       fetchSubmodules = false;
-      sha256 = "sha256-ZnCFA5MH/TvdMGXxLidOlwbgwOQTMz3fOqJ1BJGqVN8=";
+      sha256 = "sha256-rFje5kyoRCaqEZd/9YswNZ5sltqb77SZbB7vGnRD0eY=";
     };
-    date = "2025-03-12";
+    date = "2025-07-09";
   };
   spicetify = {
     pname = "spicetify";
@@ -123,14 +123,14 @@
   };
   tmux = {
     pname = "tmux";
-    version = "92755a85e5bafc72414265eb053474fbf30badc3";
+    version = "d3e03ee3cfb827f5c9cdb4f493994a37ab6bb71a";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "tmux";
-      rev = "92755a85e5bafc72414265eb053474fbf30badc3";
+      rev = "d3e03ee3cfb827f5c9cdb4f493994a37ab6bb71a";
       fetchSubmodules = false;
-      sha256 = "sha256-3ku6JA5spb3Eru/n3sKyKti0MEnxHDOsBJsAfA/Uh7o=";
+      sha256 = "sha256-HiuCfvL6wuiWxhJgr8bfahqXREYvL0r728hoJLcfk1Y=";
     };
-    date = "2025-03-12";
+    date = "2025-07-09";
   };
 }
