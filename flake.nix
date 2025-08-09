@@ -46,6 +46,15 @@
         evergarden = self.homeManagerModules.default;
       };
 
+      nixosModules = {
+        default = mkModule {
+          class = "nixos";
+          file = ./modules/nixos;
+        };
+
+        evergarden = self.nixosModules.default;
+      };
+
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShellNoCC {
           packages = with pkgs; [
