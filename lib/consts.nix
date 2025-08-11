@@ -3,6 +3,7 @@
     "fall"
     "winter"
     "spring"
+    "summer"
   ];
 
   accents = [
