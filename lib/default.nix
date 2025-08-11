@@ -8,4 +8,8 @@ lib.fixedPoints.makeExtensible (self: {
   };
   palette = import ./palette.nix;
   textmate = import ./textmate.nix;
+  util = import ./util.nix {
+    inherit lib;
+    inherit (self) palette;
+  };
 })
