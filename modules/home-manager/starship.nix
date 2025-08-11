@@ -9,8 +9,7 @@ let
 
   cfg = config.evergarden.starship;
 
-  inherit (evgLib) palette;
-  sp = palette.${cfg.variant};
+  sp = evgLib.util.mkPalette cfg;
 in
 {
   options.evergarden.starship = evgLib.options.mkEvergardenOptions {
