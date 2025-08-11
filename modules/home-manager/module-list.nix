@@ -2,6 +2,7 @@
   ./alacritty.nix
   ./bat.nix
   ./dunst.nix
+  ./fzf.nix
   ./ghostty.nix
   ./kitty.nix
   ./lazygit.nix
