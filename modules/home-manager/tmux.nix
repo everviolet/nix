@@ -10,11 +10,19 @@ let
   cfg = config.evergarden.tmux;
 in
 {
-  options.evergarden.tmux = evgLib.options.mkEvergardenOptions {
-    port = "tmux";
-    inherit config;
-    accentSupport = true;
-  };
+  options.evergarden.tmux =
+    evgLib.options.mkEvergardenOptions {
+      port = "tmux";
+      inherit config;
+      accentSupport = true;
+    }
+    // {
+      extraConfig = lib.mkOption {
+        type = lib.types.lines;
+        default = "";
+        description = "Extra tmux config to apply before evergarden plugin";
+      };
+    };
 
   config = mkIf cfg.enable {
     programs.tmux.plugins = [
@@ -23,7 +31,8 @@ in
         extraConfig = ''
           set -gq @evergarden_variant "${cfg.variant}"
           set -gq @evergarden_accent "${cfg.accent}"
-        '';
+        ''
+        + cfg.extraConfig;
       }
     ];
   };
