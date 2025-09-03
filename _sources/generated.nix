@@ -123,14 +123,14 @@
   };
   tmux = {
     pname = "tmux";
-    version = "d3e03ee3cfb827f5c9cdb4f493994a37ab6bb71a";
+    version = "25cd0d6ec2ace3e08fd7b4a554d8413923d85d27";
     src = fetchFromGitHub {
       owner = "everviolet";
       repo = "tmux";
-      rev = "d3e03ee3cfb827f5c9cdb4f493994a37ab6bb71a";
+      rev = "25cd0d6ec2ace3e08fd7b4a554d8413923d85d27";
       fetchSubmodules = false;
-      sha256 = "sha256-HiuCfvL6wuiWxhJgr8bfahqXREYvL0r728hoJLcfk1Y=";
+      sha256 = "sha256-NrPT4vSdSWG8EZVE6cz7Zm/PtnPv8bmyVyl9GuXvcDc=";
     };
-    date = "2025-07-09";
+    date = "2025-08-23";
   };
 }
