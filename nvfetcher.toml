@@ -31,3 +31,6 @@ fetch.github = "everviolet/spicetify"
 [tmux]
 src.git = "https://github.com/everviolet/tmux"
 fetch.github = "everviolet/tmux"
+[zathura]
+src.git = "https://github.com/everviolet/zathura"
+fetch.github = "everviolet/zathura"

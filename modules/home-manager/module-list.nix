@@ -9,4 +9,5 @@
   ./spicetify.nix
   ./tmux.nix
   ./yazi.nix
+  ./zathura.nix
 ]

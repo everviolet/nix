@@ -133,4 +133,16 @@
     };
     date = "2025-08-23";
   };
+  zathura = {
+    pname = "zathura";
+    version = "700457ea44463bb8f608a0e87231731db8d25163";
+    src = fetchFromGitHub {
+      owner = "everviolet";
+      repo = "zathura";
+      rev = "700457ea44463bb8f608a0e87231731db8d25163";
+      fetchSubmodules = false;
+      sha256 = "sha256-zENXC2iZVIEIe0lD1vKhMcSOadgaeSHsWGKaIW43Kng=";
+    };
+    date = "2025-11-05";
+  };
 }

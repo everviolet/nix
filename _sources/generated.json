@@ -229,5 +229,26 @@
             "type": "github"
         },
         "version": "25cd0d6ec2ace3e08fd7b4a554d8413923d85d27"
+    },
+    "zathura": {
+        "cargoLocks": null,
+        "date": "2025-11-05",
+        "extract": null,
+        "name": "zathura",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "everviolet",
+            "repo": "zathura",
+            "rev": "700457ea44463bb8f608a0e87231731db8d25163",
+            "sha256": "sha256-zENXC2iZVIEIe0lD1vKhMcSOadgaeSHsWGKaIW43Kng=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "700457ea44463bb8f608a0e87231731db8d25163"
     }
 }
