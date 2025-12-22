@@ -34,3 +34,6 @@ fetch.github = "everviolet/tmux"
 [zathura]
 src.git = "https://github.com/everviolet/zathura"
 fetch.github = "everviolet/zathura"
+[helix]
+src.git = "https://github.com/everviolet/helix"
+fetch.github = "everviolet/helix"

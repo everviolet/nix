@@ -104,6 +104,27 @@
         },
         "version": "9d74702f2070c597b7d89501357f56e55d3306e9"
     },
+    "helix": {
+        "cargoLocks": null,
+        "date": "2025-09-02",
+        "extract": null,
+        "name": "helix",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "everviolet",
+            "repo": "helix",
+            "rev": "64d6724c68cd78edec19470afd611b8a1bc49630",
+            "sha256": "sha256-VPRd49JC1oJEgy6EGK2iWYvO5Oww3g1d62tMmxUYgy4=",
+            "sparseCheckout": [],
+            "type": "github"
+        },
+        "version": "64d6724c68cd78edec19470afd611b8a1bc49630"
+    },
     "iterm": {
         "cargoLocks": null,
         "date": "2025-07-09",

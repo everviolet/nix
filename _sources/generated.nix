@@ -61,6 +61,18 @@
     };
     date = "2025-08-03";
   };
+  helix = {
+    pname = "helix";
+    version = "64d6724c68cd78edec19470afd611b8a1bc49630";
+    src = fetchFromGitHub {
+      owner = "everviolet";
+      repo = "helix";
+      rev = "64d6724c68cd78edec19470afd611b8a1bc49630";
+      fetchSubmodules = false;
+      sha256 = "sha256-VPRd49JC1oJEgy6EGK2iWYvO5Oww3g1d62tMmxUYgy4=";
+    };
+    date = "2025-09-02";
+  };
   iterm = {
     pname = "iterm";
     version = "8136aae240ae2c14faf741601396c7d99000f5d9";
