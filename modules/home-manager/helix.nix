@@ -101,7 +101,7 @@ in
       };
       "ui.cursor" = {
         fg = colors.base;
-        bg = accent;
+        bg = colors.accent;
         modifiers = [ "slow_blink" ];
       };
       "ui.linenr" = colors.surface2;
@@ -169,14 +169,14 @@ in
         bg = colors.mantle;
       };
       "ui.virtual.jump-label" = {
-        fg = accent;
+        fg = colors.accent;
         modifiers = [ "bold" ];
       };
       "ui.menu" = {
         fg = colors.text;
         bg = colors.mantle;
       };
-      "ui.menu.scroll" = accent;
+      "ui.menu.scroll" = colors.accent;
       "ui.selection" = {
         fg = colors.text;
         bg = colors.surface1;
@@ -200,11 +200,11 @@ in
       "diagnostic.warning" = colors.yellow;
       "diagnostic.error" = colors.red;
       "diagnostic.unnecessary" = {
-        fg = "overlay0";
+        fg = colors.overlay0;
         modifiers = [ "italic" ];
       };
       "diagnostic.deprecated" = {
-        fg = "overlay0";
+        fg = colors.overlay0;
         modifiers = [ "crossed_out" ];
       };
     };
