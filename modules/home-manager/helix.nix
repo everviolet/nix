@@ -6,9 +6,8 @@
 }:
 let
   cfg = config.evergarden.helix;
-  inherit (evgLib) palette;
-  colors = palette.${cfg.variant};
-  accent = colors.${cfg.accent};
+  palette = evgLib.util.mkPalette cfg;
+  colors = lib.mapAttrs (name: value: if builtins.isString value then "#${value}" else value) palette;
 in
 {
   options.evergarden.helix = evgLib.options.mkEvergardenOptions {
