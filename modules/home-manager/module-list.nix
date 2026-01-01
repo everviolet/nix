@@ -4,6 +4,7 @@
   ./dunst.nix
   ./fzf.nix
   ./ghostty.nix
+  ./helix.nix
   ./kitty.nix
   ./lazygit.nix
   ./spicetify.nix
