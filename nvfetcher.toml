@@ -1,39 +1,39 @@
 [alacritty]
-src.git = "https://github.com/everviolet/alacritty"
-fetch.github = "everviolet/alacritty"
+src.git = "https://codeberg.org/evergarden/alacritty.git"
+fetch.git = "https://codeberg.org/evergarden/alacritty.git"
 [base16]
-src.git = "https://github.com/everviolet/base16"
-fetch.github = "everviolet/base16"
+src.git = "https://codeberg.org/evergarden/base16.git"
+fetch.git = "https://codeberg.org/evergarden/base16.git"
 [bat]
-src.git = "https://github.com/everviolet/bat"
-fetch.github = "everviolet/bat"
+src.git = "https://codeberg.org/evergarden/bat.git"
+fetch.git = "https://codeberg.org/evergarden/bat.git"
 [dunst]
-src.git = "https://github.com/everviolet/dunst"
-fetch.github = "everviolet/dunst"
+src.git = "https://codeberg.org/evergarden/dunst.git"
+fetch.git = "https://codeberg.org/evergarden/dunst.git"
 [ghostty]
-src.git = "https://github.com/everviolet/ghostty"
-fetch.github = "everviolet/ghostty"
+src.git = "https://codeberg.org/evergarden/ghostty.git"
+fetch.git = "https://codeberg.org/evergarden/ghostty.git"
 [iterm]
-src.git = "https://github.com/everviolet/iterm"
-fetch.github = "everviolet/iterm"
+src.git = "https://codeberg.org/evergarden/iterm.git"
+fetch.git = "https://codeberg.org/evergarden/iterm.git"
 [kitty]
-src.git = "https://github.com/everviolet/kitty"
-fetch.github = "everviolet/kitty"
+src.git = "https://codeberg.org/evergarden/kitty.git"
+fetch.git = "https://codeberg.org/evergarden/kitty.git"
 [lazygit]
-src.git = "https://github.com/everviolet/lazygit"
-fetch.github = "everviolet/lazygit"
+src.git = "https://codeberg.org/evergarden/lazygit.git"
+fetch.git = "https://codeberg.org/evergarden/lazygit.git"
 [scss]
-src.git = "https://github.com/everviolet/scss"
-fetch.github = "everviolet/scss"
+src.git = "https://codeberg.org/evergarden/scss.git"
+fetch.git = "https://codeberg.org/evergarden/scss.git"
 [spicetify]
-src.git = "https://github.com/everviolet/spicetify"
-fetch.github = "everviolet/spicetify"
+src.git = "https://codeberg.org/evergarden/spicetify.git"
+fetch.git = "https://codeberg.org/evergarden/spicetify.git"
 [tmux]
-src.git = "https://github.com/everviolet/tmux"
-fetch.github = "everviolet/tmux"
+src.git = "https://codeberg.org/evergarden/tmux.git"
+fetch.git = "https://codeberg.org/evergarden/tmux.git"
 [zathura]
-src.git = "https://github.com/everviolet/zathura"
-fetch.github = "everviolet/zathura"
+src.git = "https://codeberg.org/evergarden/zathura.git"
+fetch.git = "https://codeberg.org/evergarden/zathura.git"
 [helix]
-src.git = "https://github.com/everviolet/helix"
-fetch.github = "everviolet/helix"
+src.git = "https://codeberg.org/evergarden/helix.git"
+fetch.git = "https://codeberg.org/evergarden/helix.git"

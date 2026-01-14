@@ -17,7 +17,7 @@ in
   };
 
   config = lib.mkIf cfg.enable {
-    # Based off of template from https://github.com/everviolet/helix
+    # Based off of template from https://codeberg.org/everviolet/helix
     programs.helix.themes."evergarden_${cfg.variant}_${cfg.accent}" = {
       # Syntax Highlighting
       "attribute" = colors.cherry;

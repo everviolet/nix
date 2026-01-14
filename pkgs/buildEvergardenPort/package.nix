@@ -21,12 +21,13 @@ lib.extendMkDerivation {
     installPhase = args.installPhase or (builtins.readFile ./install.sh);
 
     meta = {
-      homepage = "https://github.com/everviolet/${finalAttrs.port}";
+      homepage = "https://codeberg.org/everviolet/${finalAttrs.port}";
       maintainers = with lib.maintainers; [
         isabelroses
         comfysage
       ];
       platform = lib.platforms.all;
-    } // (args.meta or { });
+    }
+    // (args.meta or { });
   };
 }

@@ -1,12 +1,18 @@
 <h3 align="center">
-	<img src="https://github.com/everviolet/.github/raw/main/assets/logo-circle.png" width="100" alt="Logo"/><br/>
-	Evergarden for <a href="https://nixos.org">Nix</a>
+  <img src="https://codeberg.org/evergarden/.profile/raw/branch/main/assets/logo-circle.png" width="100" alt="Logo"/><br/>
+  Evergarden for <a href="https://nixos.org">Nix</a>
 </h3>
 
 <p align="center">
-	<a href="https://github.com/everviolet/nix/stargazers"><img src="https://img.shields.io/github/stars/everviolet/nix?style=for-the-badge&colorA=313B40&colorB=DBBC7F"></a>
-	<a href="https://github.com/everviolet/nix/issues"><img src="https://img.shields.io/github/issues/everviolet/nix?style=for-the-badge&colorA=313B40&colorB=E69875"></a>
-	<a href="https://github.com/everviolet/nix/contributors"><img src="https://img.shields.io/github/contributors/everviolet/nix?style=for-the-badge&colorA=313B40&colorB=97C9C3"></a>
+  <a href="https://codeberg.org/evergarden/nix/stars">
+    <img src="https://img.shields.io/gitea/stars/evergarden/nix?style=for-the-badge&colorA=2B3337&colorB=F5D098&gitea_url=https%3A%2F%2Fcodeberg.org">
+  </a>
+  <a href="https://codeberg.org/evergarden/nix/issues">
+    <img src="https://img.shields.io/gitea/issues/open/evergarden/nix?style=for-the-badge&colorA=2B3337&colorB=F7A182&gitea_url=https%3A%2F%2Fcodeberg.org">
+  </a>
+  <a href="https://codeberg.org/evergarden/nix/activity/contributors">
+    <img src="https://img.shields.io/github/contributors/everviolet/nix?style=for-the-badge&colorA=2B3337&colorB=B3E6DB">
+  </a>
 </p>
 
 ### Usage
@@ -18,7 +24,7 @@
 ```nix
 {
   inputs = {
-    evergarden.url = "github:everviolet/nix";
+    evergarden.url = "https://codeberg.org/evergarden/nix/archive/main.tar.gz";
   };
 }
 ```
@@ -62,7 +68,7 @@
 ```nix
 {
   evergarden = builtins.fetchTarball {
-    url = "https://github.com/everviolet/nix/archive/main.tar.gz";
+    url = "https://codeberg.org/evergarden/nix/archive/main.tar.gz";
     sha256 = "fill-in-the-sha256-hash";
   };
 }
@@ -106,10 +112,12 @@ in
 ### Thanks to <3
 
 - [isabelroses](https://github.com/isabelroses)
-- [comfysage](https://github.com/comfysage)
+- [comfysage](https://codeberg.org/comfysage)
 
 <hr>
 
 <p align="center">
-	<a href="https://github.com/comfysage/evergarden/blob/mega/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=LICENSE&message=GPL3&colorA=313B40&colorB=9BB5CF"/></a>
+  <a href="https://codeberg.org/comfysage/evergarden/blob/mega/LICENSE">
+    <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=LICENSE&message=GPL3&colorA=2B3337&colorB=AFD9E6"/>
+  </a>
 </p>
