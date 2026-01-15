@@ -11,12 +11,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "alacritty",
             "rev": "a6e2ec641fe19703e80dd7e474bc36d81cd8b4fc",
             "sha256": "sha256-Gd08tvHGf0SW5Xq29ctts5+2hepQuC84cShX9lVaV9Y=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/alacritty.git"
         },
         "version": "a6e2ec641fe19703e80dd7e474bc36d81cd8b4fc"
     },
@@ -32,12 +31,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "base16",
             "rev": "d2bfc04cafa29c681c229fefd0488c7f692368cd",
             "sha256": "sha256-c43UWmJ61NgeD8Mrzt/YxL6rPNAVR6dv4alCAH1ov/U=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/base16.git"
         },
         "version": "d2bfc04cafa29c681c229fefd0488c7f692368cd"
     },
@@ -53,12 +51,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "bat",
             "rev": "1eb44bf7fc2ed402ea96f4945cfe572b6f50d5a5",
             "sha256": "sha256-vj3P3JTZQM9b4Cldpr7rf+5Jjlj4u5DrTZ6TC4ai6F4=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/bat.git"
         },
         "version": "1eb44bf7fc2ed402ea96f4945cfe572b6f50d5a5"
     },
@@ -74,12 +71,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "dunst",
             "rev": "4255c93279c2ee659b77fcfaa16c79ed5f657af1",
             "sha256": "sha256-utu8EWSpJso+dpZ1vY+xUSRrAYGVCzseKKKlLh3NT18=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/dunst.git"
         },
         "version": "4255c93279c2ee659b77fcfaa16c79ed5f657af1"
     },
@@ -95,12 +91,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "ghostty",
             "rev": "9d74702f2070c597b7d89501357f56e55d3306e9",
             "sha256": "sha256-RuWaPm8+ylBkkEc9Y/xu43hrwQkyfL5yWF2uGYPttnU=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/ghostty.git"
         },
         "version": "9d74702f2070c597b7d89501357f56e55d3306e9"
     },
@@ -116,12 +111,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "helix",
             "rev": "64d6724c68cd78edec19470afd611b8a1bc49630",
             "sha256": "sha256-VPRd49JC1oJEgy6EGK2iWYvO5Oww3g1d62tMmxUYgy4=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/helix.git"
         },
         "version": "64d6724c68cd78edec19470afd611b8a1bc49630"
     },
@@ -137,12 +131,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "iterm",
             "rev": "8136aae240ae2c14faf741601396c7d99000f5d9",
             "sha256": "sha256-zTQuEBjxxl2k4Z3nbjHGduiCXNv/ZN7FGyHb5m/0ltM=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/iterm.git"
         },
         "version": "8136aae240ae2c14faf741601396c7d99000f5d9"
     },
@@ -158,12 +151,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "kitty",
             "rev": "0cb95deac711c7102dd93279d25149a142f03251",
             "sha256": "sha256-Etc5eAAk0Bux7yE1A17OMcV2+N0PzonGCMHJq0gAiXc=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/kitty.git"
         },
         "version": "0cb95deac711c7102dd93279d25149a142f03251"
     },
@@ -179,12 +171,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "lazygit",
             "rev": "7273109ff66d1523db380ac251c05fcb6ad51a68",
             "sha256": "sha256-sv1TSw8aVRF0na/8IP2HQGKZt+FJyQq+OI1vFo2SBVQ=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/lazygit.git"
         },
         "version": "7273109ff66d1523db380ac251c05fcb6ad51a68"
     },
@@ -200,12 +191,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "scss",
             "rev": "f294aec5657313268d616cc8330fbb423a8839db",
             "sha256": "sha256-rFje5kyoRCaqEZd/9YswNZ5sltqb77SZbB7vGnRD0eY=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/scss.git"
         },
         "version": "f294aec5657313268d616cc8330fbb423a8839db"
     },
@@ -221,18 +211,17 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "spicetify",
             "rev": "d37d8ce00ba544f95d42e92eb8c4c23048d39720",
             "sha256": "sha256-mjsCNGXOUT9dVfgyGHQ8P3zwwWyyYHqT/66xhOgdNG0=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/spicetify.git"
         },
         "version": "d37d8ce00ba544f95d42e92eb8c4c23048d39720"
     },
     "tmux": {
         "cargoLocks": null,
-        "date": "2025-08-23",
+        "date": "2025-09-08",
         "extract": null,
         "name": "tmux",
         "passthru": null,
@@ -242,14 +231,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "tmux",
-            "rev": "25cd0d6ec2ace3e08fd7b4a554d8413923d85d27",
-            "sha256": "sha256-NrPT4vSdSWG8EZVE6cz7Zm/PtnPv8bmyVyl9GuXvcDc=",
+            "rev": "6000c2b031dd2b10ca2ef153c70c8c127757fd10",
+            "sha256": "sha256-itDzgjn2DbhY/YpEuVydzuWa0wl1wy9MqqZxcHCGXz0=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/tmux.git"
         },
-        "version": "25cd0d6ec2ace3e08fd7b4a554d8413923d85d27"
+        "version": "6000c2b031dd2b10ca2ef153c70c8c127757fd10"
     },
     "zathura": {
         "cargoLocks": null,
@@ -263,12 +251,11 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "owner": "everviolet",
-            "repo": "zathura",
             "rev": "700457ea44463bb8f608a0e87231731db8d25163",
             "sha256": "sha256-zENXC2iZVIEIe0lD1vKhMcSOadgaeSHsWGKaIW43Kng=",
             "sparseCheckout": [],
-            "type": "github"
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/zathura.git"
         },
         "version": "700457ea44463bb8f608a0e87231731db8d25163"
     }

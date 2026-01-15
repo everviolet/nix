@@ -4,11 +4,13 @@
   alacritty = {
     pname = "alacritty";
     version = "a6e2ec641fe19703e80dd7e474bc36d81cd8b4fc";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "alacritty";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/alacritty.git";
       rev = "a6e2ec641fe19703e80dd7e474bc36d81cd8b4fc";
       fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-Gd08tvHGf0SW5Xq29ctts5+2hepQuC84cShX9lVaV9Y=";
     };
     date = "2025-07-09";
@@ -16,11 +18,13 @@
   base16 = {
     pname = "base16";
     version = "d2bfc04cafa29c681c229fefd0488c7f692368cd";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "base16";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/base16.git";
       rev = "d2bfc04cafa29c681c229fefd0488c7f692368cd";
       fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-c43UWmJ61NgeD8Mrzt/YxL6rPNAVR6dv4alCAH1ov/U=";
     };
     date = "2025-07-09";
@@ -28,11 +32,13 @@
   bat = {
     pname = "bat";
     version = "1eb44bf7fc2ed402ea96f4945cfe572b6f50d5a5";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "bat";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/bat.git";
       rev = "1eb44bf7fc2ed402ea96f4945cfe572b6f50d5a5";
       fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-vj3P3JTZQM9b4Cldpr7rf+5Jjlj4u5DrTZ6TC4ai6F4=";
     };
     date = "2025-07-09";
@@ -40,11 +46,13 @@
   dunst = {
     pname = "dunst";
     version = "4255c93279c2ee659b77fcfaa16c79ed5f657af1";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "dunst";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/dunst.git";
       rev = "4255c93279c2ee659b77fcfaa16c79ed5f657af1";
       fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-utu8EWSpJso+dpZ1vY+xUSRrAYGVCzseKKKlLh3NT18=";
     };
     date = "2025-07-09";
@@ -52,11 +60,13 @@
   ghostty = {
     pname = "ghostty";
     version = "9d74702f2070c597b7d89501357f56e55d3306e9";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "ghostty";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/ghostty.git";
       rev = "9d74702f2070c597b7d89501357f56e55d3306e9";
       fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-RuWaPm8+ylBkkEc9Y/xu43hrwQkyfL5yWF2uGYPttnU=";
     };
     date = "2025-08-03";
@@ -64,11 +74,13 @@
   helix = {
     pname = "helix";
     version = "64d6724c68cd78edec19470afd611b8a1bc49630";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "helix";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/helix.git";
       rev = "64d6724c68cd78edec19470afd611b8a1bc49630";
       fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-VPRd49JC1oJEgy6EGK2iWYvO5Oww3g1d62tMmxUYgy4=";
     };
     date = "2025-09-02";
@@ -76,11 +88,13 @@
   iterm = {
     pname = "iterm";
     version = "8136aae240ae2c14faf741601396c7d99000f5d9";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "iterm";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/iterm.git";
       rev = "8136aae240ae2c14faf741601396c7d99000f5d9";
       fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-zTQuEBjxxl2k4Z3nbjHGduiCXNv/ZN7FGyHb5m/0ltM=";
     };
     date = "2025-07-09";
@@ -88,11 +102,13 @@
   kitty = {
     pname = "kitty";
     version = "0cb95deac711c7102dd93279d25149a142f03251";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "kitty";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/kitty.git";
       rev = "0cb95deac711c7102dd93279d25149a142f03251";
       fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-Etc5eAAk0Bux7yE1A17OMcV2+N0PzonGCMHJq0gAiXc=";
     };
     date = "2025-07-09";
@@ -100,11 +116,13 @@
   lazygit = {
     pname = "lazygit";
     version = "7273109ff66d1523db380ac251c05fcb6ad51a68";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "lazygit";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/lazygit.git";
       rev = "7273109ff66d1523db380ac251c05fcb6ad51a68";
       fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-sv1TSw8aVRF0na/8IP2HQGKZt+FJyQq+OI1vFo2SBVQ=";
     };
     date = "2025-07-09";
@@ -112,11 +130,13 @@
   scss = {
     pname = "scss";
     version = "f294aec5657313268d616cc8330fbb423a8839db";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "scss";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/scss.git";
       rev = "f294aec5657313268d616cc8330fbb423a8839db";
       fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-rFje5kyoRCaqEZd/9YswNZ5sltqb77SZbB7vGnRD0eY=";
     };
     date = "2025-07-09";
@@ -124,35 +144,41 @@
   spicetify = {
     pname = "spicetify";
     version = "d37d8ce00ba544f95d42e92eb8c4c23048d39720";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "spicetify";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/spicetify.git";
       rev = "d37d8ce00ba544f95d42e92eb8c4c23048d39720";
       fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-mjsCNGXOUT9dVfgyGHQ8P3zwwWyyYHqT/66xhOgdNG0=";
     };
     date = "2025-07-25";
   };
   tmux = {
     pname = "tmux";
-    version = "25cd0d6ec2ace3e08fd7b4a554d8413923d85d27";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "tmux";
-      rev = "25cd0d6ec2ace3e08fd7b4a554d8413923d85d27";
+    version = "6000c2b031dd2b10ca2ef153c70c8c127757fd10";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/tmux.git";
+      rev = "6000c2b031dd2b10ca2ef153c70c8c127757fd10";
       fetchSubmodules = false;
-      sha256 = "sha256-NrPT4vSdSWG8EZVE6cz7Zm/PtnPv8bmyVyl9GuXvcDc=";
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-itDzgjn2DbhY/YpEuVydzuWa0wl1wy9MqqZxcHCGXz0=";
     };
-    date = "2025-08-23";
+    date = "2025-09-08";
   };
   zathura = {
     pname = "zathura";
     version = "700457ea44463bb8f608a0e87231731db8d25163";
-    src = fetchFromGitHub {
-      owner = "everviolet";
-      repo = "zathura";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/zathura.git";
       rev = "700457ea44463bb8f608a0e87231731db8d25163";
       fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
       sha256 = "sha256-zENXC2iZVIEIe0lD1vKhMcSOadgaeSHsWGKaIW43Kng=";
     };
     date = "2025-11-05";
