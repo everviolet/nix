@@ -175,6 +175,10 @@ in
         fg = colors.text;
         bg = colors.mantle;
       };
+      "ui.menu.selected" = {
+        fg = colors.text;
+        bg = colors.surface1;
+      };
       "ui.menu.scroll" = colors.accent;
       "ui.selection" = {
         fg = colors.text;
