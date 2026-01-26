@@ -2,6 +2,7 @@
 {
   lib,
   config,
+  options,
   ...
 }:
 let
@@ -14,7 +15,7 @@ in
   options.evergarden.spicetify = evgLib.options.mkEvergardenOptions {
     port = "spicetify";
     inherit config;
-    enableDefault = config.programs ? "spicetify";
+    enableDefault = options.programs ? "spicetify";
   };
 
   config = mkIf cfg.enable {
