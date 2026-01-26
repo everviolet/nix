@@ -18,8 +18,8 @@ in
     enableDefault = options.programs ? "spicetify";
   };
 
-  config = optionalAttrs cfg.enable {
-    programs.spicetify = {
+  config.programs = optionalAttrs cfg.enable {
+    spicetify = {
       colorScheme = cfg.variant;
       theme = {
         name = "evergarden";
