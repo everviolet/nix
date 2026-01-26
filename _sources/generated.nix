@@ -57,6 +57,20 @@
     };
     date = "2025-07-09";
   };
+  foot = {
+    pname = "foot";
+    version = "7a3a0b9d435b80241563a9d2f779c0b7475084e6";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/foot.git";
+      rev = "7a3a0b9d435b80241563a9d2f779c0b7475084e6";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-kGbYNmol7L43P84/4prB9S+A8FzMGTNEm1d1WWYwLys=";
+    };
+    date = "2026-01-21";
+  };
   ghostty = {
     pname = "ghostty";
     version = "9d74702f2070c597b7d89501357f56e55d3306e9";

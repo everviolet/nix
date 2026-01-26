@@ -79,6 +79,26 @@
         },
         "version": "4255c93279c2ee659b77fcfaa16c79ed5f657af1"
     },
+    "foot": {
+        "cargoLocks": null,
+        "date": "2026-01-21",
+        "extract": null,
+        "name": "foot",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "7a3a0b9d435b80241563a9d2f779c0b7475084e6",
+            "sha256": "sha256-kGbYNmol7L43P84/4prB9S+A8FzMGTNEm1d1WWYwLys=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/foot.git"
+        },
+        "version": "7a3a0b9d435b80241563a9d2f779c0b7475084e6"
+    },
     "ghostty": {
         "cargoLocks": null,
         "date": "2025-08-03",
