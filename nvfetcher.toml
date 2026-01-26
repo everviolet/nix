@@ -13,6 +13,9 @@ fetch.git = "https://codeberg.org/evergarden/dunst.git"
 [ghostty]
 src.git = "https://codeberg.org/evergarden/ghostty.git"
 fetch.git = "https://codeberg.org/evergarden/ghostty.git"
+[foot]
+src.git = "https://codeberg.org/evergarden/foot.git"
+fetch.git = "https://codeberg.org/evergarden/foot.git"
 [iterm]
 src.git = "https://codeberg.org/evergarden/iterm.git"
 fetch.git = "https://codeberg.org/evergarden/iterm.git"
