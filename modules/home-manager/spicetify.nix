@@ -16,7 +16,7 @@ in
     inherit config;
   };
 
-  config = mkIf cfg.enable {
+  config = mkIf (config.programs ? "spicetify" && cfg.enable) {
     programs.spicetify = {
       colorScheme = cfg.variant;
       theme = {
