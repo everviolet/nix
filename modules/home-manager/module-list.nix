@@ -1,4 +1,5 @@
 [
+  ./adwaita.nix
   ./alacritty.nix
   ./bat.nix
   ./dunst.nix
