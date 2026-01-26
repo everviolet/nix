@@ -14,9 +14,10 @@ in
   options.evergarden.spicetify = evgLib.options.mkEvergardenOptions {
     port = "spicetify";
     inherit config;
+    enableDefault = config.programs ? "spicetify";
   };
 
-  config = mkIf (config.programs ? "spicetify" && cfg.enable) {
+  config = mkIf cfg.enable {
     programs.spicetify = {
       colorScheme = cfg.variant;
       theme = {
