@@ -6,7 +6,7 @@
   ...
 }:
 let
-  inherit (lib) mkIf;
+  inherit (lib) optionalAttrs;
 
   inherit (config.evergarden) ports;
   cfg = config.evergarden.spicetify;
@@ -18,7 +18,7 @@ in
     enableDefault = options.programs ? "spicetify";
   };
 
-  config = mkIf cfg.enable {
+  config = optionalAttrs cfg.enable {
     programs.spicetify = {
       colorScheme = cfg.variant;
       theme = {
