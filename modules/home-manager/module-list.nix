@@ -3,6 +3,7 @@
   ./alacritty.nix
   ./bat.nix
   ./dunst.nix
+  ./foot.nix
   ./fzf.nix
   ./ghostty.nix
   ./helix.nix
