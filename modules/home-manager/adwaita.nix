@@ -9,7 +9,7 @@ let
   inherit (lib) mkIf;
 
   inherit (config.evergarden) ports;
-  cfg = config.evergarden.helix;
+  cfg = config.evergarden.adwaita;
 in
 {
   options.evergarden.adwaita = evgLib.options.mkEvergardenOptions {
