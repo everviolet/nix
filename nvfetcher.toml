@@ -1,6 +1,9 @@
 [adwaita]
 src.git = "https://codeberg.org/evergarden/adwaita.git"
 fetch.git = "https://codeberg.org/evergarden/adwaita.git"
+[aerc]
+src.git = "https://codeberg.org/evergarden/aerc.git"
+fetch.git = "https://codeberg.org/evergarden/aerc.git"
 [alacritty]
 src.git = "https://codeberg.org/evergarden/alacritty.git"
 fetch.git = "https://codeberg.org/evergarden/alacritty.git"

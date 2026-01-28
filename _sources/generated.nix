@@ -20,6 +20,20 @@
     };
     date = "2026-01-26";
   };
+  aerc = {
+    pname = "aerc";
+    version = "b653be30078cd98d24c4eabe0094dee1ede39554";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/aerc.git";
+      rev = "b653be30078cd98d24c4eabe0094dee1ede39554";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-wzu0UXLy2kbpPRRvUFDG40Vq0od9Mc//BU7bxzlg97U=";
+    };
+    date = "2026-03-05";
+  };
   alacritty = {
     pname = "alacritty";
     version = "a6e2ec641fe19703e80dd7e474bc36d81cd8b4fc";

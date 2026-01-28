@@ -19,6 +19,26 @@
         },
         "version": "a1260f436d7550758e4f2accd1b4b8dc47d5e5d1"
     },
+    "aerc": {
+        "cargoLocks": null,
+        "date": "2026-03-05",
+        "extract": null,
+        "name": "aerc",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "b653be30078cd98d24c4eabe0094dee1ede39554",
+            "sha256": "sha256-wzu0UXLy2kbpPRRvUFDG40Vq0od9Mc//BU7bxzlg97U=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/aerc.git"
+        },
+        "version": "b653be30078cd98d24c4eabe0094dee1ede39554"
+    },
     "alacritty": {
         "cargoLock": null,
         "date": "2025-07-09",
