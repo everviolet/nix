@@ -1,6 +1,6 @@
 {
     "adwaita": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2026-01-26",
         "extract": null,
         "name": "adwaita",
@@ -20,7 +20,7 @@
         "version": "a1260f436d7550758e4f2accd1b4b8dc47d5e5d1"
     },
     "alacritty": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-07-09",
         "extract": null,
         "name": "alacritty",
@@ -40,7 +40,7 @@
         "version": "a6e2ec641fe19703e80dd7e474bc36d81cd8b4fc"
     },
     "base16": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-07-09",
         "extract": null,
         "name": "base16",
@@ -60,7 +60,7 @@
         "version": "d2bfc04cafa29c681c229fefd0488c7f692368cd"
     },
     "bat": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-07-09",
         "extract": null,
         "name": "bat",
@@ -80,7 +80,7 @@
         "version": "1eb44bf7fc2ed402ea96f4945cfe572b6f50d5a5"
     },
     "dunst": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-07-09",
         "extract": null,
         "name": "dunst",
@@ -100,7 +100,7 @@
         "version": "4255c93279c2ee659b77fcfaa16c79ed5f657af1"
     },
     "foot": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2026-01-21",
         "extract": null,
         "name": "foot",
@@ -120,7 +120,7 @@
         "version": "7a3a0b9d435b80241563a9d2f779c0b7475084e6"
     },
     "ghostty": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-08-03",
         "extract": null,
         "name": "ghostty",
@@ -140,8 +140,8 @@
         "version": "9d74702f2070c597b7d89501357f56e55d3306e9"
     },
     "helix": {
-        "cargoLocks": null,
-        "date": "2025-09-02",
+        "cargoLock": null,
+        "date": "2026-01-23",
         "extract": null,
         "name": "helix",
         "passthru": null,
@@ -151,16 +151,16 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "64d6724c68cd78edec19470afd611b8a1bc49630",
-            "sha256": "sha256-VPRd49JC1oJEgy6EGK2iWYvO5Oww3g1d62tMmxUYgy4=",
+            "rev": "39b0ce9d7606447b2f00307c61e8a31c095f3a30",
+            "sha256": "sha256-E/WBxOzQRU0Fcw5m0sexVQD7ObYz/EAGON53pp7vQkU=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://codeberg.org/evergarden/helix.git"
         },
-        "version": "64d6724c68cd78edec19470afd611b8a1bc49630"
+        "version": "39b0ce9d7606447b2f00307c61e8a31c095f3a30"
     },
     "iterm": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-07-09",
         "extract": null,
         "name": "iterm",
@@ -180,7 +180,7 @@
         "version": "8136aae240ae2c14faf741601396c7d99000f5d9"
     },
     "kitty": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-07-09",
         "extract": null,
         "name": "kitty",
@@ -200,7 +200,7 @@
         "version": "0cb95deac711c7102dd93279d25149a142f03251"
     },
     "lazygit": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-07-09",
         "extract": null,
         "name": "lazygit",
@@ -220,7 +220,7 @@
         "version": "7273109ff66d1523db380ac251c05fcb6ad51a68"
     },
     "scss": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-07-09",
         "extract": null,
         "name": "scss",
@@ -240,7 +240,7 @@
         "version": "f294aec5657313268d616cc8330fbb423a8839db"
     },
     "spicetify": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-07-25",
         "extract": null,
         "name": "spicetify",
@@ -260,7 +260,7 @@
         "version": "d37d8ce00ba544f95d42e92eb8c4c23048d39720"
     },
     "tmux": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-09-08",
         "extract": null,
         "name": "tmux",
@@ -280,7 +280,7 @@
         "version": "6000c2b031dd2b10ca2ef153c70c8c127757fd10"
     },
     "zathura": {
-        "cargoLocks": null,
+        "cargoLock": null,
         "date": "2025-11-05",
         "extract": null,
         "name": "zathura",
