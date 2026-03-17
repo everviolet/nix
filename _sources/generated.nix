@@ -8,87 +8,87 @@
 {
   adwaita = {
     pname = "adwaita";
-    version = "a1260f436d7550758e4f2accd1b4b8dc47d5e5d1";
+    version = "27faf43ddab535419827e5f6857a8ff499bf49c7";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/adwaita.git";
-      rev = "a1260f436d7550758e4f2accd1b4b8dc47d5e5d1";
+      rev = "27faf43ddab535419827e5f6857a8ff499bf49c7";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-H71IwL4QpulT8PiSTnp5D6zRYD1XffPuQ10IrThLs60=";
+      sha256 = "sha256-PjQg8kPF24q03Jz0XkV5Pr6SX/6zGappXFUf/eIsQos=";
     };
-    date = "2026-01-26";
+    date = "2026-03-17";
   };
   aerc = {
     pname = "aerc";
-    version = "b653be30078cd98d24c4eabe0094dee1ede39554";
+    version = "7e5eacd818f54ece2a66417c241884388643be62";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/aerc.git";
-      rev = "b653be30078cd98d24c4eabe0094dee1ede39554";
+      rev = "7e5eacd818f54ece2a66417c241884388643be62";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-wzu0UXLy2kbpPRRvUFDG40Vq0od9Mc//BU7bxzlg97U=";
+      sha256 = "sha256-CDifF+4wB/e+0pN1Xo7mKBoHRbnlVS43cxz8euMiqPg=";
     };
     date = "2026-03-05";
   };
   alacritty = {
     pname = "alacritty";
-    version = "a6e2ec641fe19703e80dd7e474bc36d81cd8b4fc";
+    version = "0a114e2a1b0a312a89f187a5abf920390e92dd1f";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/alacritty.git";
-      rev = "a6e2ec641fe19703e80dd7e474bc36d81cd8b4fc";
+      rev = "0a114e2a1b0a312a89f187a5abf920390e92dd1f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-Gd08tvHGf0SW5Xq29ctts5+2hepQuC84cShX9lVaV9Y=";
+      sha256 = "sha256-BvRnKLmscOKiBzvRDtAYRzpQHvTw5KiB9GT1vLJ+lYs=";
     };
-    date = "2025-07-09";
+    date = "2026-03-17";
   };
   base16 = {
     pname = "base16";
-    version = "d2bfc04cafa29c681c229fefd0488c7f692368cd";
+    version = "1e4e0bb50bd4ba8b8e405fb5027403f2afabfde4";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/base16.git";
-      rev = "d2bfc04cafa29c681c229fefd0488c7f692368cd";
+      rev = "1e4e0bb50bd4ba8b8e405fb5027403f2afabfde4";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-c43UWmJ61NgeD8Mrzt/YxL6rPNAVR6dv4alCAH1ov/U=";
+      sha256 = "sha256-R3P/b6Tqbn88KMr8+k8JwqVI9n/Z390dzI2BXPj2gMs=";
     };
-    date = "2025-07-09";
+    date = "2026-03-17";
   };
   bat = {
     pname = "bat";
-    version = "1eb44bf7fc2ed402ea96f4945cfe572b6f50d5a5";
+    version = "aa5b92e927d1169673050f4f444496590e053487";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/bat.git";
-      rev = "1eb44bf7fc2ed402ea96f4945cfe572b6f50d5a5";
+      rev = "aa5b92e927d1169673050f4f444496590e053487";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-vj3P3JTZQM9b4Cldpr7rf+5Jjlj4u5DrTZ6TC4ai6F4=";
+      sha256 = "sha256-Q5ljWahEQcK6GfK1Pj2gXyWoFzVuBBFoW3INxUfKfuk=";
     };
-    date = "2025-07-09";
+    date = "2026-03-17";
   };
   dunst = {
     pname = "dunst";
-    version = "4255c93279c2ee659b77fcfaa16c79ed5f657af1";
+    version = "f5376d8765ddd664477a98c0a9d4d1f89bce975d";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/dunst.git";
-      rev = "4255c93279c2ee659b77fcfaa16c79ed5f657af1";
+      rev = "f5376d8765ddd664477a98c0a9d4d1f89bce975d";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-utu8EWSpJso+dpZ1vY+xUSRrAYGVCzseKKKlLh3NT18=";
+      sha256 = "sha256-0/ltcS3grGawHB/NobakF6JxBSyGOBz+cWIF/k18+nQ=";
     };
-    date = "2025-07-09";
+    date = "2026-03-17";
   };
   foot = {
     pname = "foot";
@@ -106,128 +106,128 @@
   };
   ghostty = {
     pname = "ghostty";
-    version = "9d74702f2070c597b7d89501357f56e55d3306e9";
+    version = "5a814f683d69b4cf2279ecdbdda23b6aa0e81515";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/ghostty.git";
-      rev = "9d74702f2070c597b7d89501357f56e55d3306e9";
+      rev = "5a814f683d69b4cf2279ecdbdda23b6aa0e81515";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-RuWaPm8+ylBkkEc9Y/xu43hrwQkyfL5yWF2uGYPttnU=";
+      sha256 = "sha256-po+aDqIbpE+muteZWIHjWyiNr+O7T3NiROKwyYQYnnA=";
     };
-    date = "2025-08-03";
+    date = "2026-03-17";
   };
   helix = {
     pname = "helix";
-    version = "39b0ce9d7606447b2f00307c61e8a31c095f3a30";
+    version = "931c5dafd975ae6a82b0d1a281eb93406ff20bb8";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/helix.git";
-      rev = "39b0ce9d7606447b2f00307c61e8a31c095f3a30";
+      rev = "931c5dafd975ae6a82b0d1a281eb93406ff20bb8";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-E/WBxOzQRU0Fcw5m0sexVQD7ObYz/EAGON53pp7vQkU=";
+      sha256 = "sha256-ehhGRR11dA1CYpcGZPGGSbpFL/Rwb34MitDKjXb3btE=";
     };
-    date = "2026-01-23";
+    date = "2026-03-17";
   };
   iterm = {
     pname = "iterm";
-    version = "8136aae240ae2c14faf741601396c7d99000f5d9";
+    version = "4856088c41471fe7d42930d608ed2577d685b985";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/iterm.git";
-      rev = "8136aae240ae2c14faf741601396c7d99000f5d9";
+      rev = "4856088c41471fe7d42930d608ed2577d685b985";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-zTQuEBjxxl2k4Z3nbjHGduiCXNv/ZN7FGyHb5m/0ltM=";
+      sha256 = "sha256-TzAcU47veX94lMrbpeFtc5dSaMTkLIQyFS5BdTVmMIk=";
     };
-    date = "2025-07-09";
+    date = "2026-03-17";
   };
   kitty = {
     pname = "kitty";
-    version = "0cb95deac711c7102dd93279d25149a142f03251";
+    version = "80ba725ed461084e070922ba7dbae47902b4e04f";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/kitty.git";
-      rev = "0cb95deac711c7102dd93279d25149a142f03251";
+      rev = "80ba725ed461084e070922ba7dbae47902b4e04f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-Etc5eAAk0Bux7yE1A17OMcV2+N0PzonGCMHJq0gAiXc=";
+      sha256 = "sha256-KbgEbUev66m+FRN67sYZtoHwercU4UUiDLm4luLB2wM=";
     };
-    date = "2025-07-09";
+    date = "2026-03-17";
   };
   lazygit = {
     pname = "lazygit";
-    version = "7273109ff66d1523db380ac251c05fcb6ad51a68";
+    version = "fe4badf4128491f9579bc284ac9c3222a08efa25";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/lazygit.git";
-      rev = "7273109ff66d1523db380ac251c05fcb6ad51a68";
+      rev = "fe4badf4128491f9579bc284ac9c3222a08efa25";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-sv1TSw8aVRF0na/8IP2HQGKZt+FJyQq+OI1vFo2SBVQ=";
+      sha256 = "sha256-eb9rvhz5bhEFaaSx36bv2Zcj4FG5kzmKfxn3UJZfMM0=";
     };
-    date = "2025-07-09";
+    date = "2026-03-17";
   };
   scss = {
     pname = "scss";
-    version = "f294aec5657313268d616cc8330fbb423a8839db";
+    version = "acfd96769701729e3c48ccaf6d86dab9f378d393";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/scss.git";
-      rev = "f294aec5657313268d616cc8330fbb423a8839db";
+      rev = "acfd96769701729e3c48ccaf6d86dab9f378d393";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-rFje5kyoRCaqEZd/9YswNZ5sltqb77SZbB7vGnRD0eY=";
+      sha256 = "sha256-6Bce9sO9FgIg4oYFXw/A3e4y8qE9llgve/NDCgvNrlI=";
     };
-    date = "2025-07-09";
+    date = "2026-03-17";
   };
   spicetify = {
     pname = "spicetify";
-    version = "d37d8ce00ba544f95d42e92eb8c4c23048d39720";
+    version = "4bedc9ece80f1007a65d8455eb5528b61184a11a";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/spicetify.git";
-      rev = "d37d8ce00ba544f95d42e92eb8c4c23048d39720";
+      rev = "4bedc9ece80f1007a65d8455eb5528b61184a11a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-mjsCNGXOUT9dVfgyGHQ8P3zwwWyyYHqT/66xhOgdNG0=";
+      sha256 = "sha256-fQWOY9E993Z54Ssti9NBcEy/kVKJd5DNiaAnek5hOsM=";
     };
-    date = "2025-07-25";
+    date = "2026-03-17";
   };
   tmux = {
     pname = "tmux";
-    version = "6000c2b031dd2b10ca2ef153c70c8c127757fd10";
+    version = "57126e28cb711cb6857860d7722ffa6693d29b6b";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/tmux.git";
-      rev = "6000c2b031dd2b10ca2ef153c70c8c127757fd10";
+      rev = "57126e28cb711cb6857860d7722ffa6693d29b6b";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-itDzgjn2DbhY/YpEuVydzuWa0wl1wy9MqqZxcHCGXz0=";
+      sha256 = "sha256-JayKR1UEW+1xe+n9Bk23buwGAockBdyIeJmf63B8Qrs=";
     };
-    date = "2025-09-08";
+    date = "2026-03-17";
   };
   zathura = {
     pname = "zathura";
-    version = "700457ea44463bb8f608a0e87231731db8d25163";
+    version = "630991dc6ddf6f12405dc2c7f09bdd4ec3988a0a";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/zathura.git";
-      rev = "700457ea44463bb8f608a0e87231731db8d25163";
+      rev = "630991dc6ddf6f12405dc2c7f09bdd4ec3988a0a";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-zENXC2iZVIEIe0lD1vKhMcSOadgaeSHsWGKaIW43Kng=";
+      sha256 = "sha256-KHllIvnhdf2IQlHesWeatLDKJRseuEOnS0FWhZCWtm0=";
     };
-    date = "2025-11-05";
+    date = "2026-03-15";
   };
 }
