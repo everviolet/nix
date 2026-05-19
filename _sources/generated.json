@@ -1,7 +1,7 @@
 {
     "adwaita": {
         "cargoLock": null,
-        "date": "2026-03-17",
+        "date": "2026-05-19",
         "extract": null,
         "name": "adwaita",
         "passthru": null,
@@ -11,13 +11,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "27faf43ddab535419827e5f6857a8ff499bf49c7",
-            "sha256": "sha256-PjQg8kPF24q03Jz0XkV5Pr6SX/6zGappXFUf/eIsQos=",
+            "rev": "7c177805674f3603e8954dd8760b899e309e593f",
+            "sha256": "sha256-fg6CroEdBkD4fTTL2CD1uolO2C99pv8v0zfvev94Z2s=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://codeberg.org/evergarden/adwaita.git"
         },
-        "version": "27faf43ddab535419827e5f6857a8ff499bf49c7"
+        "version": "7c177805674f3603e8954dd8760b899e309e593f"
     },
     "aerc": {
         "cargoLock": null,

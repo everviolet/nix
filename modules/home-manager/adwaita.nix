@@ -24,14 +24,20 @@ in
       theme = "adw-gtk3-${colorScheme}";
     in
     mkIf cfg.enable {
-      gtk.gtk3 = {
+      gtk = {
         theme = {
           name = theme;
           package = pkgs.adw-gtk3;
         };
         inherit colorScheme;
-        extraCss = ''
+
+        gtk3.extraCss = ''
           @import url("${ports.adwaita}/evergarden-${cfg.variant}-${cfg.accent}.css");
+        '';
+
+        gtk4.extraCss = ''
+          @import url("${ports.adwaita}/evergarden-${cfg.variant}-${cfg.accent}.css");
+          @import url("${ports.adwaita}/gtk4.css");
         '';
       };
 

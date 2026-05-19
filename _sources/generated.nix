@@ -8,17 +8,17 @@
 {
   adwaita = {
     pname = "adwaita";
-    version = "27faf43ddab535419827e5f6857a8ff499bf49c7";
+    version = "7c177805674f3603e8954dd8760b899e309e593f";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/adwaita.git";
-      rev = "27faf43ddab535419827e5f6857a8ff499bf49c7";
+      rev = "7c177805674f3603e8954dd8760b899e309e593f";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-PjQg8kPF24q03Jz0XkV5Pr6SX/6zGappXFUf/eIsQos=";
+      sha256 = "sha256-fg6CroEdBkD4fTTL2CD1uolO2C99pv8v0zfvev94Z2s=";
     };
-    date = "2026-03-17";
+    date = "2026-05-19";
   };
   aerc = {
     pname = "aerc";
