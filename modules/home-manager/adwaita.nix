@@ -18,14 +18,15 @@ in
     accentSupport = true;
   };
 
-  config = mkIf cfg.enable {
-    gtk.gtk3 =
-      let
-        colorScheme = if cfg.variant == "summer" then "light" else "dark";
-      in
-      {
+  config =
+    let
+      colorScheme = if cfg.variant == "summer" then "light" else "dark";
+      theme = "adw-gtk3-${colorScheme}";
+    in
+    mkIf cfg.enable {
+      gtk.gtk3 = {
         theme = {
-          name = "adw-gtk3-${colorScheme}";
+          name = theme;
           package = pkgs.adw-gtk3;
         };
         inherit colorScheme;
@@ -33,5 +34,12 @@ in
           @import url("${ports.adwaita}/evergarden-${cfg.variant}-${cfg.accent}.css");
         '';
       };
-  };
+
+      dconf.settings = {
+        "org/gnome/desktop/interface" = {
+          color-scheme = "prefer-${colorScheme}";
+          gtk-theme = theme;
+        };
+      };
+    };
 }
