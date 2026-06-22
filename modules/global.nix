@@ -33,11 +33,11 @@ in
   config = lib.mkIf config.evergarden.cache.enable {
     nix.settings = {
       substituters = [
-        "https://everviolet.cachix.org"
+        "https://evergarden.cachix.org"
       ];
 
       trusted-public-keys = [
-        "everviolet.cachix.org-1:3nHvJgzKRRRCQZURheH1INddNlyU4OWqfn068t8AuvU="
+        "evergarden.cachix.org-1:BGS2QnGxIpNqgzbhasZH88IJxIaL+YFpVtf4Hy1fz7g="
       ];
     };
   };
