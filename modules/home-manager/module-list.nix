@@ -7,6 +7,7 @@
   ./foot.nix
   ./fzf.nix
   ./ghostty.nix
+  ./halloy.nix
   ./helix.nix
   ./kitty.nix
   ./lazygit.nix

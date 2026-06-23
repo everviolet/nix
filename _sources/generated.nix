@@ -118,6 +118,20 @@
     };
     date = "2026-03-17";
   };
+  halloy = {
+    pname = "halloy";
+    version = "751e78065fca5521db4005333e6736c68ae6d44a";
+    src = fetchgit {
+      url = "https://codeberg.org/evergarden/halloy.git";
+      rev = "751e78065fca5521db4005333e6736c68ae6d44a";
+      fetchSubmodules = false;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-8txJvH5YH7BrFIM7SVJ/Xobm82WVzTiI74L1khh35+8=";
+    };
+    date = "2026-06-23";
+  };
   helix = {
     pname = "helix";
     version = "931c5dafd975ae6a82b0d1a281eb93406ff20bb8";

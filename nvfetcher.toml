@@ -43,6 +43,9 @@ fetch.git = "https://codeberg.org/evergarden/tmux.git"
 [zathura]
 src.git = "https://codeberg.org/evergarden/zathura.git"
 fetch.git = "https://codeberg.org/evergarden/zathura.git"
+[halloy]
+src.git = "https://codeberg.org/evergarden/halloy.git"
+fetch.git = "https://codeberg.org/evergarden/halloy.git"
 [helix]
 src.git = "https://codeberg.org/evergarden/helix.git"
 fetch.git = "https://codeberg.org/evergarden/helix.git"

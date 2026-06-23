@@ -159,6 +159,26 @@
         },
         "version": "5a814f683d69b4cf2279ecdbdda23b6aa0e81515"
     },
+    "halloy": {
+        "cargoLock": null,
+        "date": "2026-06-23",
+        "extract": null,
+        "name": "halloy",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "751e78065fca5521db4005333e6736c68ae6d44a",
+            "sha256": "sha256-8txJvH5YH7BrFIM7SVJ/Xobm82WVzTiI74L1khh35+8=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/halloy.git"
+        },
+        "version": "751e78065fca5521db4005333e6736c68ae6d44a"
+    },
     "helix": {
         "cargoLock": null,
         "date": "2026-03-17",
