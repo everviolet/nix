@@ -78,17 +78,17 @@
   };
   dunst = {
     pname = "dunst";
-    version = "f5376d8765ddd664477a98c0a9d4d1f89bce975d";
+    version = "786ebe468a135611ef47a987bf8db582a1e6086b";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/dunst.git";
-      rev = "f5376d8765ddd664477a98c0a9d4d1f89bce975d";
+      rev = "786ebe468a135611ef47a987bf8db582a1e6086b";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-0/ltcS3grGawHB/NobakF6JxBSyGOBz+cWIF/k18+nQ=";
+      sha256 = "sha256-WE+kLDbS6Kf5hiBAGAyHGYLnW4S38ocz5Zd0iFIFd5o=";
     };
-    date = "2026-03-17";
+    date = "2026-07-12";
   };
   foot = {
     pname = "foot";

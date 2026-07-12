@@ -101,7 +101,7 @@
     },
     "dunst": {
         "cargoLock": null,
-        "date": "2026-03-17",
+        "date": "2026-07-12",
         "extract": null,
         "name": "dunst",
         "passthru": null,
@@ -111,13 +111,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "f5376d8765ddd664477a98c0a9d4d1f89bce975d",
-            "sha256": "sha256-0/ltcS3grGawHB/NobakF6JxBSyGOBz+cWIF/k18+nQ=",
+            "rev": "786ebe468a135611ef47a987bf8db582a1e6086b",
+            "sha256": "sha256-WE+kLDbS6Kf5hiBAGAyHGYLnW4S38ocz5Zd0iFIFd5o=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://codeberg.org/evergarden/dunst.git"
         },
-        "version": "f5376d8765ddd664477a98c0a9d4d1f89bce975d"
+        "version": "786ebe468a135611ef47a987bf8db582a1e6086b"
     },
     "foot": {
         "cargoLock": null,
