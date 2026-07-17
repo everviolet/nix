@@ -92,15 +92,15 @@
   };
   fish = {
     pname = "fish";
-    version = "01f6f903e0dfeabc68bd105e30e91c6926d00712";
+    version = "b51f49c152c561b06473482cb522be3c692ced6e";
     src = fetchgit {
       url = "https://codeberg.org/evergarden/fish.git";
-      rev = "01f6f903e0dfeabc68bd105e30e91c6926d00712";
+      rev = "b51f49c152c561b06473482cb522be3c692ced6e";
       fetchSubmodules = false;
       deepClone = false;
       leaveDotGit = false;
       sparseCheckout = [ ];
-      sha256 = "sha256-KmLa1YH7NAfMae0X9hkewC8obRF9+2M6Azxek31UMY4=";
+      sha256 = "sha256-Q+UZ4rkZMy27DXxLZs1/pQRJbyKyD+Af4mOlC03hmYA=";
     };
     date = "2026-07-17";
   };

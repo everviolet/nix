@@ -131,13 +131,13 @@
             "fetchSubmodules": false,
             "leaveDotGit": false,
             "name": null,
-            "rev": "01f6f903e0dfeabc68bd105e30e91c6926d00712",
-            "sha256": "sha256-KmLa1YH7NAfMae0X9hkewC8obRF9+2M6Azxek31UMY4=",
+            "rev": "b51f49c152c561b06473482cb522be3c692ced6e",
+            "sha256": "sha256-Q+UZ4rkZMy27DXxLZs1/pQRJbyKyD+Af4mOlC03hmYA=",
             "sparseCheckout": [],
             "type": "git",
             "url": "https://codeberg.org/evergarden/fish.git"
         },
-        "version": "01f6f903e0dfeabc68bd105e30e91c6926d00712"
+        "version": "b51f49c152c561b06473482cb522be3c692ced6e"
     },
     "foot": {
         "cargoLock": null,
