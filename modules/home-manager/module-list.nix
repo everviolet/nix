@@ -4,6 +4,7 @@
   ./alacritty.nix
   ./bat.nix
   ./dunst.nix
+  ./fish.nix
   ./foot.nix
   ./fzf.nix
   ./ghostty.nix

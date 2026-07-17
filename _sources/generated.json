@@ -119,6 +119,26 @@
         },
         "version": "786ebe468a135611ef47a987bf8db582a1e6086b"
     },
+    "fish": {
+        "cargoLock": null,
+        "date": "2026-07-17",
+        "extract": null,
+        "name": "fish",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": false,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "01f6f903e0dfeabc68bd105e30e91c6926d00712",
+            "sha256": "sha256-KmLa1YH7NAfMae0X9hkewC8obRF9+2M6Azxek31UMY4=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://codeberg.org/evergarden/fish.git"
+        },
+        "version": "01f6f903e0dfeabc68bd105e30e91c6926d00712"
+    },
     "foot": {
         "cargoLock": null,
         "date": "2026-03-22",
