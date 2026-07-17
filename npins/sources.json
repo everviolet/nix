@@ -1,0 +1,243 @@
+{
+  "pins": {
+    "adwaita": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "adwaita"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "7c177805674f3603e8954dd8760b899e309e593f",
+      "url": "https://codeberg.org/evergarden/adwaita/archive/7c177805674f3603e8954dd8760b899e309e593f.tar.gz",
+      "hash": "sha256-fg6CroEdBkD4fTTL2CD1uolO2C99pv8v0zfvev94Z2s="
+    },
+    "aerc": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "aerc"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "7e5eacd818f54ece2a66417c241884388643be62",
+      "url": "https://codeberg.org/evergarden/aerc/archive/7e5eacd818f54ece2a66417c241884388643be62.tar.gz",
+      "hash": "sha256-CDifF+4wB/e+0pN1Xo7mKBoHRbnlVS43cxz8euMiqPg="
+    },
+    "alacritty": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "alacritty"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "0a114e2a1b0a312a89f187a5abf920390e92dd1f",
+      "url": "https://codeberg.org/evergarden/alacritty/archive/0a114e2a1b0a312a89f187a5abf920390e92dd1f.tar.gz",
+      "hash": "sha256-BvRnKLmscOKiBzvRDtAYRzpQHvTw5KiB9GT1vLJ+lYs="
+    },
+    "bat": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "bat"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "aa5b92e927d1169673050f4f444496590e053487",
+      "url": "https://codeberg.org/evergarden/bat/archive/aa5b92e927d1169673050f4f444496590e053487.tar.gz",
+      "hash": "sha256-Q5ljWahEQcK6GfK1Pj2gXyWoFzVuBBFoW3INxUfKfuk="
+    },
+    "dunst": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "dunst"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "786ebe468a135611ef47a987bf8db582a1e6086b",
+      "url": "https://codeberg.org/evergarden/dunst/archive/786ebe468a135611ef47a987bf8db582a1e6086b.tar.gz",
+      "hash": "sha256-WE+kLDbS6Kf5hiBAGAyHGYLnW4S38ocz5Zd0iFIFd5o="
+    },
+    "fish": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "fish"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "b51f49c152c561b06473482cb522be3c692ced6e",
+      "url": "https://codeberg.org/evergarden/fish/archive/b51f49c152c561b06473482cb522be3c692ced6e.tar.gz",
+      "hash": "sha256-Q+UZ4rkZMy27DXxLZs1/pQRJbyKyD+Af4mOlC03hmYA="
+    },
+    "foot": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "foot"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "7731568f5eed49068b5d62f07f069cd5adabf3b1",
+      "url": "https://codeberg.org/evergarden/foot/archive/7731568f5eed49068b5d62f07f069cd5adabf3b1.tar.gz",
+      "hash": "sha256-9KZzzZp/KNPJMFIUDoMwD0KWVVERY8Z6sEvPQRcrHa8="
+    },
+    "ghostty": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "ghostty"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "5a814f683d69b4cf2279ecdbdda23b6aa0e81515",
+      "url": "https://codeberg.org/evergarden/ghostty/archive/5a814f683d69b4cf2279ecdbdda23b6aa0e81515.tar.gz",
+      "hash": "sha256-po+aDqIbpE+muteZWIHjWyiNr+O7T3NiROKwyYQYnnA="
+    },
+    "halloy": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "halloy"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "751e78065fca5521db4005333e6736c68ae6d44a",
+      "url": "https://codeberg.org/evergarden/halloy/archive/751e78065fca5521db4005333e6736c68ae6d44a.tar.gz",
+      "hash": "sha256-8txJvH5YH7BrFIM7SVJ/Xobm82WVzTiI74L1khh35+8="
+    },
+    "helix": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "helix"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "931c5dafd975ae6a82b0d1a281eb93406ff20bb8",
+      "url": "https://codeberg.org/evergarden/helix/archive/931c5dafd975ae6a82b0d1a281eb93406ff20bb8.tar.gz",
+      "hash": "sha256-ehhGRR11dA1CYpcGZPGGSbpFL/Rwb34MitDKjXb3btE="
+    },
+    "iterm": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "iterm"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "4856088c41471fe7d42930d608ed2577d685b985",
+      "url": "https://codeberg.org/evergarden/iterm/archive/4856088c41471fe7d42930d608ed2577d685b985.tar.gz",
+      "hash": "sha256-TzAcU47veX94lMrbpeFtc5dSaMTkLIQyFS5BdTVmMIk="
+    },
+    "kitty": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "kitty"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "80ba725ed461084e070922ba7dbae47902b4e04f",
+      "url": "https://codeberg.org/evergarden/kitty/archive/80ba725ed461084e070922ba7dbae47902b4e04f.tar.gz",
+      "hash": "sha256-KbgEbUev66m+FRN67sYZtoHwercU4UUiDLm4luLB2wM="
+    },
+    "lazygit": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "lazygit"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "fe4badf4128491f9579bc284ac9c3222a08efa25",
+      "url": "https://codeberg.org/evergarden/lazygit/archive/fe4badf4128491f9579bc284ac9c3222a08efa25.tar.gz",
+      "hash": "sha256-eb9rvhz5bhEFaaSx36bv2Zcj4FG5kzmKfxn3UJZfMM0="
+    },
+    "scss": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "scss"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "acfd96769701729e3c48ccaf6d86dab9f378d393",
+      "url": "https://codeberg.org/evergarden/scss/archive/acfd96769701729e3c48ccaf6d86dab9f378d393.tar.gz",
+      "hash": "sha256-6Bce9sO9FgIg4oYFXw/A3e4y8qE9llgve/NDCgvNrlI="
+    },
+    "spicetify": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "spicetify"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "4bedc9ece80f1007a65d8455eb5528b61184a11a",
+      "url": "https://codeberg.org/evergarden/spicetify/archive/4bedc9ece80f1007a65d8455eb5528b61184a11a.tar.gz",
+      "hash": "sha256-fQWOY9E993Z54Ssti9NBcEy/kVKJd5DNiaAnek5hOsM="
+    },
+    "tmux": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "tmux"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "57126e28cb711cb6857860d7722ffa6693d29b6b",
+      "url": "https://codeberg.org/evergarden/tmux/archive/57126e28cb711cb6857860d7722ffa6693d29b6b.tar.gz",
+      "hash": "sha256-JayKR1UEW+1xe+n9Bk23buwGAockBdyIeJmf63B8Qrs="
+    },
+    "zathura": {
+      "type": "Git",
+      "repository": {
+        "type": "Forgejo",
+        "server": "https://codeberg.org/",
+        "owner": "evergarden",
+        "repo": "zathura"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "630991dc6ddf6f12405dc2c7f09bdd4ec3988a0a",
+      "url": "https://codeberg.org/evergarden/zathura/archive/630991dc6ddf6f12405dc2c7f09bdd4ec3988a0a.tar.gz",
+      "hash": "sha256-KHllIvnhdf2IQlHesWeatLDKJRseuEOnS0FWhZCWtm0="
+    }
+  },
+  "version": 7
+}

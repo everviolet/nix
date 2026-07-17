@@ -9,13 +9,14 @@ lib.extendMkDerivation {
 
   extendDrvArgs = finalAttrs: args: {
     pname = "evergarden-${finalAttrs.port}";
-    version = args.version or ("0-" + (builtins.substring 0 7 finalAttrs.src.rev));
+    version = args.version or ("0-" + (builtins.substring 0 7 finalAttrs.src.revision));
 
     src =
       args.src or sources.${finalAttrs.port} or (fetchFromGitHub {
         owner = "everviolet";
         repo = finalAttrs.port;
-        inherit (args) rev hash;
+        rev = args.revision;
+        inherit (args) hash;
       });
 
     installPhase = args.installPhase or (builtins.readFile ./install.sh);

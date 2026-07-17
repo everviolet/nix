@@ -58,8 +58,7 @@
       devShells = forAllSystems (pkgs: {
         default = pkgs.mkShellNoCC {
           packages = with pkgs; [
-            just
-            nvfetcher
+            npins
           ];
         };
       });

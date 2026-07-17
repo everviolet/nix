@@ -1,7 +1,10 @@
 { sources, tmuxPlugins }:
-tmuxPlugins.mkTmuxPlugin rec {
-  pluginName = "evergarden";
-  version = src.rev;
+let
   src = sources.tmux;
+in
+tmuxPlugins.mkTmuxPlugin {
+  pluginName = "evergarden";
+  version = src.revision;
+  inherit src;
   rtpFilePath = "themes/evergarden.sh";
 }

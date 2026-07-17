@@ -10,14 +10,7 @@
 let
   callPackage = lib.callPackageWith (pkgs // finalPackages // { inherit sources; });
 
-  sources = lib.pipe { } [
-    (pkgs.callPackage ./_sources/generated.nix)
-    (lib.flip lib.removeAttrs [
-      "override"
-      "overrideAttrs"
-    ])
-    (lib.mapAttrs (_: v: v.src))
-  ];
+  sources = import ./npins {};
 
   madePackages = lib.packagesFromDirectoryRecursive {
     directory = ./pkgs;
